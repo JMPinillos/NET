@@ -8,7 +8,7 @@ Module Main
         Dim triangulo As New Triangulo
         Dim hexagono As New Hexagono
         Dim lado As Double
-        
+
         ' ************************** CUADRADO **************************
         ' Solicitar al usuario que ingrese el lado del cuadrado
         Console.Write("Ingrese la longitud de un lado del cuadrado: ")

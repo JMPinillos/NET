@@ -1,3 +1,101 @@
+# Actividad 1 - Aplicaciones básicas
+
+### Clases
+
+#### Formas
+
+```vb
+Public MustInherit Class Formas
+   
+    Public MustOverride Function perimetro(lado)
+    Public MustOverride Function area(lado)
+
+End Class
+```
+
+
+
+#### Cuadrado
+
+```vb
+Public Class Cuadrado
+    Inherits Formas
+    
+    Public Overrides Function perimetro(lado) As Object
+        return 4 * lado
+    End Function
+
+    Public Overrides Function area(lado) As Object
+        return lado * lado
+    End Function
+    
+End Class
+```
+
+
+
+#### Triángulo
+
+```vb
+Public Class Triangulo
+    Inherits Formas
+    
+    Public Overrides Function perimetro(lado) As Object
+        return 3 * lado
+    End Function
+
+    Public Overrides Function area(lado) As Object
+        return (lado * Math.Sqrt(lado^2-(lado/2)^2))/2
+    End Function
+    
+End Class
+```
+
+
+
+#### Círculo
+
+```vb
+Public Class Circulo
+    Inherits Formas
+    
+    Const pi As Double = Math.PI
+    
+    Public Overrides Function perimetro(lado As Object) As Object
+        return 2 * pi * (lado/2)
+    End Function
+
+    Public Overrides Function area(lado As Object) As Object
+        return pi * ((lado/2)^2)
+    End Function
+    
+End Class
+```
+
+
+
+#### Hexágono
+
+```vb
+Public Class Hexagono
+    Inherits Formas
+    
+    Public Overrides Function perimetro(lado) As Object
+        return 6 * lado
+    End Function
+
+    Public Overrides Function area(lado) As Object
+        return (perimetro(lado) * Math.Sqrt(lado^2-(lado/2)^2)) / 2
+    End Function
+    
+End Class
+```
+
+
+
+#### Main
+
+```vb
 Imports System
 
 Module Main
@@ -8,7 +106,7 @@ Module Main
         Dim triangulo As New Triangulo
         Dim hexagono As New Hexagono
         Dim lado As Double
-        
+
         ' ************************** CUADRADO **************************
         ' Solicitar al usuario que ingrese el lado del cuadrado
         Console.Write("Ingrese la longitud de un lado del cuadrado: ")
@@ -57,3 +155,5 @@ Module Main
         
     End Sub
 End Module
+```
+
