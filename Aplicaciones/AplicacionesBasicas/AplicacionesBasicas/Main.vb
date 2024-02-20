@@ -15,7 +15,7 @@ Module Main
 
         ' ************************** CUADRADO **************************
         ' Solicitar al usuario que ingrese el lado del cuadrado
-        Console.Write("Ingrese la longitud del lado del cuadrado: ")
+        Console.Write("Ingrese la longitud de un lado del cuadrado: ")
         
         ' A la valible ladoCuadrado se le asigna  el valor de entrada del usuario
         ' transformandolo a Double, porque la entrada del usuario es tratada
@@ -31,7 +31,7 @@ Module Main
         Console.ReadKey(True)
         
         ' ************************** CÍRCULO **************************
-        Console.Write("Ingrese la longitud del perimetro del circulo: ")
+        Console.Write("Ingrese la longitud del diametro del circulo: ")
         lado = Convert.ToDouble(Console.ReadLine())
 
         Console.WriteLine("El perímetro del círculo es: " & circulo.perimetro(lado))
@@ -42,7 +42,7 @@ Module Main
         
         ' ************************** TRIANGULO **************************
         
-        Console.Write("Ingrese la longitud del perimetro del triángulo: ")
+        Console.Write("Ingrese la longitud de un lado del triángulo equilatero: ")
         lado = Convert.ToDouble(Console.ReadLine())
 
         Console.WriteLine("El perímetro del triángulo es: " & triangulo.perimetro(lado))
@@ -53,7 +53,7 @@ Module Main
         
         ' ************************** HEXÁGONO **************************
         
-        Console.Write("Ingrese la longitud del perimetro del hexágono: ")
+        Console.Write("Ingrese la longitud de un lado del hexágono: ")
         lado = Convert.ToDouble(Console.ReadLine())
 
         Console.WriteLine("El perímetro del hexágono es: " & hexagono.perimetro(lado))
