@@ -1,0 +1,14 @@
+/Users/jmproducciones/RiderProjects/AplicacionesBasicas/AplicacionesBasicas/bin/Debug/net8.0/AplicacionesBasicas
+/Users/jmproducciones/RiderProjects/AplicacionesBasicas/AplicacionesBasicas/bin/Debug/net8.0/AplicacionesBasicas.deps.json
+/Users/jmproducciones/RiderProjects/AplicacionesBasicas/AplicacionesBasicas/bin/Debug/net8.0/AplicacionesBasicas.runtimeconfig.json
+/Users/jmproducciones/RiderProjects/AplicacionesBasicas/AplicacionesBasicas/bin/Debug/net8.0/AplicacionesBasicas.dll
+/Users/jmproducciones/RiderProjects/AplicacionesBasicas/AplicacionesBasicas/bin/Debug/net8.0/AplicacionesBasicas.pdb
+/Users/jmproducciones/RiderProjects/AplicacionesBasicas/AplicacionesBasicas/obj/Debug/net8.0/AplicacionesBasicas.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jmproducciones/RiderProjects/AplicacionesBasicas/AplicacionesBasicas/obj/Debug/net8.0/AplicacionesBasicas.AssemblyInfoInputs.cache
+/Users/jmproducciones/RiderProjects/AplicacionesBasicas/AplicacionesBasicas/obj/Debug/net8.0/AplicacionesBasicas.AssemblyInfo.vb
+/Users/jmproducciones/RiderProjects/AplicacionesBasicas/AplicacionesBasicas/obj/Debug/net8.0/AplicacionesBasicas.vbproj.CoreCompileInputs.cache
+/Users/jmproducciones/RiderProjects/AplicacionesBasicas/AplicacionesBasicas/obj/Debug/net8.0/AplicacionesBasicas.dll
+/Users/jmproducciones/RiderProjects/AplicacionesBasicas/AplicacionesBasicas/obj/Debug/net8.0/refint/AplicacionesBasicas.dll
+/Users/jmproducciones/RiderProjects/AplicacionesBasicas/AplicacionesBasicas/obj/Debug/net8.0/AplicacionesBasicas.pdb
+/Users/jmproducciones/RiderProjects/AplicacionesBasicas/AplicacionesBasicas/obj/Debug/net8.0/AplicacionesBasicas.genruntimeconfig.cache
+/Users/jmproducciones/RiderProjects/AplicacionesBasicas/AplicacionesBasicas/obj/Debug/net8.0/ref/AplicacionesBasicas.dll

@@ -1,0 +1,14 @@
+/Users/jmproducciones/RiderProjects/Variables/Variables/bin/Debug/net8.0/Variables
+/Users/jmproducciones/RiderProjects/Variables/Variables/bin/Debug/net8.0/Variables.deps.json
+/Users/jmproducciones/RiderProjects/Variables/Variables/bin/Debug/net8.0/Variables.runtimeconfig.json
+/Users/jmproducciones/RiderProjects/Variables/Variables/bin/Debug/net8.0/Variables.dll
+/Users/jmproducciones/RiderProjects/Variables/Variables/bin/Debug/net8.0/Variables.pdb
+/Users/jmproducciones/RiderProjects/Variables/Variables/obj/Debug/net8.0/Variables.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jmproducciones/RiderProjects/Variables/Variables/obj/Debug/net8.0/Variables.AssemblyInfoInputs.cache
+/Users/jmproducciones/RiderProjects/Variables/Variables/obj/Debug/net8.0/Variables.AssemblyInfo.cs
+/Users/jmproducciones/RiderProjects/Variables/Variables/obj/Debug/net8.0/Variables.csproj.CoreCompileInputs.cache
+/Users/jmproducciones/RiderProjects/Variables/Variables/obj/Debug/net8.0/Variables.dll
+/Users/jmproducciones/RiderProjects/Variables/Variables/obj/Debug/net8.0/refint/Variables.dll
+/Users/jmproducciones/RiderProjects/Variables/Variables/obj/Debug/net8.0/Variables.pdb
+/Users/jmproducciones/RiderProjects/Variables/Variables/obj/Debug/net8.0/Variables.genruntimeconfig.cache
+/Users/jmproducciones/RiderProjects/Variables/Variables/obj/Debug/net8.0/ref/Variables.dll

@@ -1,0 +1,14 @@
+/Users/jmproducciones/RiderProjects/HolaMundo/HolaMundo/bin/Debug/net8.0/HolaMundo
+/Users/jmproducciones/RiderProjects/HolaMundo/HolaMundo/bin/Debug/net8.0/HolaMundo.deps.json
+/Users/jmproducciones/RiderProjects/HolaMundo/HolaMundo/bin/Debug/net8.0/HolaMundo.runtimeconfig.json
+/Users/jmproducciones/RiderProjects/HolaMundo/HolaMundo/bin/Debug/net8.0/HolaMundo.dll
+/Users/jmproducciones/RiderProjects/HolaMundo/HolaMundo/bin/Debug/net8.0/HolaMundo.pdb
+/Users/jmproducciones/RiderProjects/HolaMundo/HolaMundo/obj/Debug/net8.0/HolaMundo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jmproducciones/RiderProjects/HolaMundo/HolaMundo/obj/Debug/net8.0/HolaMundo.AssemblyInfoInputs.cache
+/Users/jmproducciones/RiderProjects/HolaMundo/HolaMundo/obj/Debug/net8.0/HolaMundo.AssemblyInfo.cs
+/Users/jmproducciones/RiderProjects/HolaMundo/HolaMundo/obj/Debug/net8.0/HolaMundo.csproj.CoreCompileInputs.cache
+/Users/jmproducciones/RiderProjects/HolaMundo/HolaMundo/obj/Debug/net8.0/HolaMundo.dll
+/Users/jmproducciones/RiderProjects/HolaMundo/HolaMundo/obj/Debug/net8.0/refint/HolaMundo.dll
+/Users/jmproducciones/RiderProjects/HolaMundo/HolaMundo/obj/Debug/net8.0/HolaMundo.pdb
+/Users/jmproducciones/RiderProjects/HolaMundo/HolaMundo/obj/Debug/net8.0/HolaMundo.genruntimeconfig.cache
+/Users/jmproducciones/RiderProjects/HolaMundo/HolaMundo/obj/Debug/net8.0/ref/HolaMundo.dll
