@@ -1,0 +1,15 @@
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\DateTime\DateTime\DateTime\bin\Debug\net8.0\DateTime.exe
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\DateTime\DateTime\DateTime\bin\Debug\net8.0\DateTime.deps.json
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\DateTime\DateTime\DateTime\bin\Debug\net8.0\DateTime.runtimeconfig.json
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\DateTime\DateTime\DateTime\bin\Debug\net8.0\DateTime.dll
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\DateTime\DateTime\DateTime\bin\Debug\net8.0\DateTime.pdb
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\DateTime\DateTime\DateTime\obj\Debug\net8.0\DateTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\DateTime\DateTime\DateTime\obj\Debug\net8.0\DateTime.AssemblyInfoInputs.cache
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\DateTime\DateTime\DateTime\obj\Debug\net8.0\DateTime.AssemblyInfo.vb
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\DateTime\DateTime\DateTime\obj\Debug\net8.0\DateTime.vbproj.CoreCompileInputs.cache
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\DateTime\DateTime\DateTime\obj\Debug\net8.0\DateTime.sourcelink.json
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\DateTime\DateTime\DateTime\obj\Debug\net8.0\DateTime.dll
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\DateTime\DateTime\DateTime\obj\Debug\net8.0\refint\DateTime.dll
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\DateTime\DateTime\DateTime\obj\Debug\net8.0\DateTime.pdb
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\DateTime\DateTime\DateTime\obj\Debug\net8.0\DateTime.genruntimeconfig.cache
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\DateTime\DateTime\DateTime\obj\Debug\net8.0\ref\DateTime.dll

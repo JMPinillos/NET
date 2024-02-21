@@ -1,0 +1,15 @@
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ProgramandoClases\Racionales\Racionales\bin\Debug\net8.0\Racionales.exe
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ProgramandoClases\Racionales\Racionales\bin\Debug\net8.0\Racionales.deps.json
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ProgramandoClases\Racionales\Racionales\bin\Debug\net8.0\Racionales.runtimeconfig.json
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ProgramandoClases\Racionales\Racionales\bin\Debug\net8.0\Racionales.dll
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ProgramandoClases\Racionales\Racionales\bin\Debug\net8.0\Racionales.pdb
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ProgramandoClases\Racionales\Racionales\obj\Debug\net8.0\Racionales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ProgramandoClases\Racionales\Racionales\obj\Debug\net8.0\Racionales.AssemblyInfoInputs.cache
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ProgramandoClases\Racionales\Racionales\obj\Debug\net8.0\Racionales.AssemblyInfo.vb
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ProgramandoClases\Racionales\Racionales\obj\Debug\net8.0\Racionales.vbproj.CoreCompileInputs.cache
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ProgramandoClases\Racionales\Racionales\obj\Debug\net8.0\Racionales.sourcelink.json
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ProgramandoClases\Racionales\Racionales\obj\Debug\net8.0\Racionales.dll
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ProgramandoClases\Racionales\Racionales\obj\Debug\net8.0\refint\Racionales.dll
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ProgramandoClases\Racionales\Racionales\obj\Debug\net8.0\Racionales.pdb
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ProgramandoClases\Racionales\Racionales\obj\Debug\net8.0\Racionales.genruntimeconfig.cache
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ProgramandoClases\Racionales\Racionales\obj\Debug\net8.0\ref\Racionales.dll
