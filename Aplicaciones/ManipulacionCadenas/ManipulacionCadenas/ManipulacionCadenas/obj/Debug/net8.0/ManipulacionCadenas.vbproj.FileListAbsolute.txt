@@ -1,0 +1,15 @@
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ManipulacionCadenas\ManipulacionCadenas\ManipulacionCadenas\bin\Debug\net8.0\ManipulacionCadenas.exe
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ManipulacionCadenas\ManipulacionCadenas\ManipulacionCadenas\bin\Debug\net8.0\ManipulacionCadenas.deps.json
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ManipulacionCadenas\ManipulacionCadenas\ManipulacionCadenas\bin\Debug\net8.0\ManipulacionCadenas.runtimeconfig.json
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ManipulacionCadenas\ManipulacionCadenas\ManipulacionCadenas\bin\Debug\net8.0\ManipulacionCadenas.dll
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ManipulacionCadenas\ManipulacionCadenas\ManipulacionCadenas\bin\Debug\net8.0\ManipulacionCadenas.pdb
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ManipulacionCadenas\ManipulacionCadenas\ManipulacionCadenas\obj\Debug\net8.0\ManipulacionCadenas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ManipulacionCadenas\ManipulacionCadenas\ManipulacionCadenas\obj\Debug\net8.0\ManipulacionCadenas.AssemblyInfoInputs.cache
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ManipulacionCadenas\ManipulacionCadenas\ManipulacionCadenas\obj\Debug\net8.0\ManipulacionCadenas.AssemblyInfo.vb
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ManipulacionCadenas\ManipulacionCadenas\ManipulacionCadenas\obj\Debug\net8.0\ManipulacionCadenas.vbproj.CoreCompileInputs.cache
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ManipulacionCadenas\ManipulacionCadenas\ManipulacionCadenas\obj\Debug\net8.0\ManipulacionCadenas.sourcelink.json
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ManipulacionCadenas\ManipulacionCadenas\ManipulacionCadenas\obj\Debug\net8.0\ManipulacionCadenas.dll
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ManipulacionCadenas\ManipulacionCadenas\ManipulacionCadenas\obj\Debug\net8.0\refint\ManipulacionCadenas.dll
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ManipulacionCadenas\ManipulacionCadenas\ManipulacionCadenas\obj\Debug\net8.0\ManipulacionCadenas.pdb
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ManipulacionCadenas\ManipulacionCadenas\ManipulacionCadenas\obj\Debug\net8.0\ManipulacionCadenas.genruntimeconfig.cache
+C:\Users\u253724\Documents\GitHub\NET\Aplicaciones\ManipulacionCadenas\ManipulacionCadenas\ManipulacionCadenas\obj\Debug\net8.0\ref\ManipulacionCadenas.dll
