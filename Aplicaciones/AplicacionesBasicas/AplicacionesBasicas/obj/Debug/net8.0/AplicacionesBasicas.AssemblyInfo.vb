@@ -15,7 +15,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("AplicacionesBasicas"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04193cb5c99d02137859e2d5c344ce4de14a5976"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("AplicacionesBasicas"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("AplicacionesBasicas"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")> 
