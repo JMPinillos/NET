@@ -1,0 +1,17 @@
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\bin\Debug\net8.0-windows\Buttons.exe
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\bin\Debug\net8.0-windows\Buttons.deps.json
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\bin\Debug\net8.0-windows\Buttons.runtimeconfig.json
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\bin\Debug\net8.0-windows\Buttons.dll
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\bin\Debug\net8.0-windows\Buttons.pdb
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\obj\Debug\net8.0-windows\Buttons.Form1.resources
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\obj\Debug\net8.0-windows\Buttons.vbproj.GenerateResource.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\obj\Debug\net8.0-windows\Buttons.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\obj\Debug\net8.0-windows\Buttons.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\obj\Debug\net8.0-windows\Buttons.AssemblyInfo.vb
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\obj\Debug\net8.0-windows\Buttons.vbproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\obj\Debug\net8.0-windows\Buttons.sourcelink.json
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\obj\Debug\net8.0-windows\Buttons.dll
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\obj\Debug\net8.0-windows\refint\Buttons.dll
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\obj\Debug\net8.0-windows\Buttons.pdb
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\obj\Debug\net8.0-windows\Buttons.genruntimeconfig.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Buttons\obj\Debug\net8.0-windows\ref\Buttons.dll

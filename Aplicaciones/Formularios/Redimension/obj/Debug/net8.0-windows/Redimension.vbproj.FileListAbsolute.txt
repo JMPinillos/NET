@@ -1,0 +1,17 @@
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\bin\Debug\net8.0-windows\Redimension.exe
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\bin\Debug\net8.0-windows\Redimension.deps.json
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\bin\Debug\net8.0-windows\Redimension.runtimeconfig.json
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\bin\Debug\net8.0-windows\Redimension.dll
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\bin\Debug\net8.0-windows\Redimension.pdb
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\obj\Debug\net8.0-windows\Redimension.Form1.resources
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\obj\Debug\net8.0-windows\Redimension.vbproj.GenerateResource.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\obj\Debug\net8.0-windows\Redimension.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\obj\Debug\net8.0-windows\Redimension.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\obj\Debug\net8.0-windows\Redimension.AssemblyInfo.vb
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\obj\Debug\net8.0-windows\Redimension.vbproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\obj\Debug\net8.0-windows\Redimension.sourcelink.json
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\obj\Debug\net8.0-windows\Redimension.dll
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\obj\Debug\net8.0-windows\refint\Redimension.dll
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\obj\Debug\net8.0-windows\Redimension.pdb
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\obj\Debug\net8.0-windows\Redimension.genruntimeconfig.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\Formularios\Redimension\obj\Debug\net8.0-windows\ref\Redimension.dll
