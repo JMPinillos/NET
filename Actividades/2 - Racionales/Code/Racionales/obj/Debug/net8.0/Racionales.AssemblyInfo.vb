@@ -15,7 +15,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Racionales"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c136f64799801b9339c55e7f2fcc195f1af2acd0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bfb1a7e3e3d599125f055b541b363be5d8a34c4"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Racionales"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Racionales"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")> 

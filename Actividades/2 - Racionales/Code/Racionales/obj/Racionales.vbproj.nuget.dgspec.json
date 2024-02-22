@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jmproducciones/Documents/GitHub/NET/Aplicaciones/ProgramandoClases/Racionales/Racionales/Racionales.vbproj": {}
+    "C:\\Users\\u253724\\Documents\\GitHub\\NET\\Actividades\\2 - Racionales\\Code\\Racionales\\Racionales.vbproj": {}
   },
   "projects": {
-    "/Users/jmproducciones/Documents/GitHub/NET/Aplicaciones/ProgramandoClases/Racionales/Racionales/Racionales.vbproj": {
+    "C:\\Users\\u253724\\Documents\\GitHub\\NET\\Actividades\\2 - Racionales\\Code\\Racionales\\Racionales.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jmproducciones/Documents/GitHub/NET/Aplicaciones/ProgramandoClases/Racionales/Racionales/Racionales.vbproj",
+        "projectUniqueName": "C:\\Users\\u253724\\Documents\\GitHub\\NET\\Actividades\\2 - Racionales\\Code\\Racionales\\Racionales.vbproj",
         "projectName": "Racionales",
-        "projectPath": "/Users/jmproducciones/Documents/GitHub/NET/Aplicaciones/ProgramandoClases/Racionales/Racionales/Racionales.vbproj",
-        "packagesPath": "/Users/jmproducciones/.nuget/packages/",
-        "outputPath": "/Users/jmproducciones/Documents/GitHub/NET/Aplicaciones/ProgramandoClases/Racionales/Racionales/obj/",
+        "projectPath": "C:\\Users\\u253724\\Documents\\GitHub\\NET\\Actividades\\2 - Racionales\\Code\\Racionales\\Racionales.vbproj",
+        "packagesPath": "C:\\Users\\u253724\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\u253724\\Documents\\GitHub\\NET\\Actividades\\2 - Racionales\\Code\\Racionales\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jmproducciones/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\u253724\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\u253724\\.dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
