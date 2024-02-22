@@ -1,4 +1,4 @@
-# Actividad 1 - Racionales
+# Actividad 2 - Racionales
 
 ### Clases
 
