@@ -4,7 +4,7 @@ Este repositorio contiene el código y los documentos relacionados con dos activ
 
 
 
-### [Actividad 1: Aplicaciones básicas](https://github.com/JMPinillos/NET/blob/main/Aplicaciones%20b%C3%A1sicas/Actividad%201%20-%20Aplicaciones%20b%C3%A1sicas.md)
+### [Actividad 1: Aplicaciones básicas](https://github.com/JMPinillos/NET/blob/main/Actividades/1%20-%20Aplicaciones%20b%C3%A1sicas/Actividad%201%20-%20Aplicaciones%20b%C3%A1sicas.md)
 
 Aplicación en la que se le pida al usuario las dimensiones de diferentes figuras y la aplicación muestre el perímetro y el área de las mismas, las figuras serán:
 
