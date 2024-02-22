@@ -15,7 +15,7 @@ Aplicación en la que se le pida al usuario las dimensiones de diferentes figura
 
 
 
-### [Actividad 2: Programando clases](https://github.com/JMPinillos/NET/blob/main/Aplicaciones%20b%C3%A1sicas/Actividad%201%20-%20Aplicaciones%20b%C3%A1sicas.md)
+### [Actividad 2: Programando clases](https://github.com/JMPinillos/NET/blob/main/Actividades/2%20-%20Racionales/Actividad%202%20-%20Racionales.md)
 
 En esta actividad se le pide que programe la clase racional, esta clase forma un número fraccionario con su numerador y denominador. La clase tendrá como mínimo los métodos necesarios para: 
 
