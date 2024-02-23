@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Suma
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Suma
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         TextBox1 = New TextBox()
         TextBox2 = New TextBox()
@@ -54,7 +54,7 @@ Partial Class Suma
         ' BtnCalcular
         ' 
         BtnCalcular.BackColor = Color.RoyalBlue
-        BtnCalcular.Font = New Font("Calibri", 10.0F, FontStyle.Bold)
+        BtnCalcular.Font = New Font("Calibri", 10F, FontStyle.Bold)
         BtnCalcular.ForeColor = Color.White
         BtnCalcular.Location = New Point(71, 72)
         BtnCalcular.Name = "BtnCalcular"
@@ -66,7 +66,7 @@ Partial Class Suma
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Calibri", 9.0F, FontStyle.Bold, GraphicsUnit.Point, 0)
+        Label1.Font = New Font("Calibri", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.Location = New Point(118, 34)
         Label1.Name = "Label1"
         Label1.Size = New Size(13, 14)
@@ -86,7 +86,7 @@ Partial Class Suma
         ' BtnSalir
         ' 
         BtnSalir.BackColor = Color.Red
-        BtnSalir.Font = New Font("Calibri", 10.0F, FontStyle.Bold)
+        BtnSalir.Font = New Font("Calibri", 10F, FontStyle.Bold)
         BtnSalir.ForeColor = Color.White
         BtnSalir.Location = New Point(137, 166)
         BtnSalir.Name = "BtnSalir"
@@ -98,7 +98,7 @@ Partial Class Suma
         ' BtnVolver
         ' 
         BtnVolver.BackColor = Color.Green
-        BtnVolver.Font = New Font("Calibri", 10.0F, FontStyle.Bold)
+        BtnVolver.Font = New Font("Calibri", 10F, FontStyle.Bold)
         BtnVolver.ForeColor = Color.White
         BtnVolver.Location = New Point(31, 166)
         BtnVolver.Name = "BtnVolver"
@@ -109,7 +109,7 @@ Partial Class Suma
         ' 
         ' Suma
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(246, 216)
         Controls.Add(BtnVolver)

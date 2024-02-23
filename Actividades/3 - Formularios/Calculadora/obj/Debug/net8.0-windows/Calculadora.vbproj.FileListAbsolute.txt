@@ -16,6 +16,3 @@
 \\Mac\Home\Documents\GitHub\NET\Actividades\3 - Formularios\Calculadora\obj\Debug\net8.0-windows\Calculadora.genruntimeconfig.cache
 \\Mac\Home\Documents\GitHub\NET\Actividades\3 - Formularios\Calculadora\obj\Debug\net8.0-windows\ref\Calculadora.dll
 \\Mac\Home\Documents\GitHub\NET\Actividades\3 - Formularios\Calculadora\obj\Debug\net8.0-windows\Calculadora.Suma.resources
-\\Mac\Home\Documents\GitHub\NET\Actividades\3 - Formularios\Calculadora\obj\Debug\net8.0-windows\Calculadora.Selector.resources
-\\Mac\Home\Documents\GitHub\NET\Actividades\3 - Formularios\Calculadora\obj\Debug\net8.0-windows\Calculadora.Resta.resources
-\\Mac\Home\Documents\GitHub\NET\Actividades\3 - Formularios\Calculadora\obj\Debug\net8.0-windows\Calculadora.Form3.resources
