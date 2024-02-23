@@ -29,10 +29,10 @@
     Private Sub BtnSalir_Click(sender As Object, e As EventArgs) Handles BtnSalir.Click
         Dim texto As String = "¿Seguro que desea salir?"
         Dim estilo As MsgBoxStyle = MsgBoxStyle.DefaultButton2 Or MsgBoxStyle.Question Or MsgBoxStyle.YesNo
-        Dim respuesta As MsgBoxResult
         Dim titulo As String = "Salir"
+        Dim respuesta As MsgBoxResult
 
-        MsgBox(texto, estilo, titulo)
+        respuesta = MsgBox(texto, estilo, titulo)
 
         If respuesta = MsgBoxResult.Yes Then
             End
