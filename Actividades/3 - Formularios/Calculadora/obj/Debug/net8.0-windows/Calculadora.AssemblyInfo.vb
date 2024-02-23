@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Calculadora"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae11cd2e0fdd98c2e8ee51664b0d3001209b9c77"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13c0bb38836147d2eea5bf76b7a8134c38e2116f"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Calculadora"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Calculadora"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

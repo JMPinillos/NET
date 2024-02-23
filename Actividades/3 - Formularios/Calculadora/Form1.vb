@@ -1,6 +1,8 @@
-﻿Public Class Form1
+﻿Public Class Selector
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles BtnRestar.Click
-
+        Dim form3 As New Resta()
+        form3.Show()
+        Me.Close()
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles BtnDividir.Click

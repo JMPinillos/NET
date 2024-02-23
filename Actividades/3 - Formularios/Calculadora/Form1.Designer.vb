@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class Selector
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -100,18 +100,18 @@ Partial Class Form1
         Label1.TabIndex = 5
         Label1.Text = "¿Que desea realizar?"
         ' 
-        ' Form1
+        ' Selector
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(359, 450)
+        ClientSize = New Size(363, 205)
         Controls.Add(Label1)
         Controls.Add(BtnElevar)
         Controls.Add(BtnDividir)
         Controls.Add(BtnMultiplicar)
         Controls.Add(BtnRestar)
         Controls.Add(BtnSumar)
-        Name = "Form1"
+        Name = "Selector"
         Text = "Calculadora"
         ResumeLayout(False)
         PerformLayout()
