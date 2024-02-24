@@ -15,6 +15,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="FormsOperaciones\Potencia.vb" />
+    <Compile Update="FormsOperaciones\Multiplicaion.vb" />
+    <Compile Update="FormsOperaciones\Division.vb" />
+    <Compile Update="FormsOperaciones\Suma.vb" />
     <Compile Update="My Project\Application.Designer.vb">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

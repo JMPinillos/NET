@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Suma
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class Division
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Suma
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         TextBox1 = New TextBox()
         TextBox2 = New TextBox()
@@ -54,6 +54,7 @@ Partial Class Suma
         ' BtnCalcular
         ' 
         BtnCalcular.BackColor = Color.RoyalBlue
+        BtnCalcular.Cursor = Cursors.Hand
         BtnCalcular.Font = New Font("Calibri", 10F, FontStyle.Bold)
         BtnCalcular.ForeColor = Color.White
         BtnCalcular.Location = New Point(71, 72)
@@ -66,16 +67,17 @@ Partial Class Suma
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Calibri", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(118, 34)
+        Label1.Font = New Font("Calibri", 9F, FontStyle.Bold)
+        Label1.Location = New Point(118, 35)
         Label1.Name = "Label1"
-        Label1.Size = New Size(13, 14)
+        Label1.Size = New Size(12, 14)
         Label1.TabIndex = 3
-        Label1.Text = "+"
+        Label1.Text = "/"
         ' 
         ' TextBox3
         ' 
         TextBox3.BorderStyle = BorderStyle.FixedSingle
+        TextBox3.Enabled = False
         TextBox3.Location = New Point(31, 120)
         TextBox3.Name = "TextBox3"
         TextBox3.Size = New Size(187, 23)
@@ -86,6 +88,7 @@ Partial Class Suma
         ' BtnSalir
         ' 
         BtnSalir.BackColor = Color.Red
+        BtnSalir.Cursor = Cursors.Hand
         BtnSalir.Font = New Font("Calibri", 10F, FontStyle.Bold)
         BtnSalir.ForeColor = Color.White
         BtnSalir.Location = New Point(137, 166)
@@ -98,6 +101,7 @@ Partial Class Suma
         ' BtnVolver
         ' 
         BtnVolver.BackColor = Color.Green
+        BtnVolver.Cursor = Cursors.Hand
         BtnVolver.Font = New Font("Calibri", 10F, FontStyle.Bold)
         BtnVolver.ForeColor = Color.White
         BtnVolver.Location = New Point(31, 166)
@@ -107,11 +111,11 @@ Partial Class Suma
         BtnVolver.Text = "Volver"
         BtnVolver.UseVisualStyleBackColor = False
         ' 
-        ' Suma
+        ' Division
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(246, 216)
+        ClientSize = New Size(249, 226)
         Controls.Add(BtnVolver)
         Controls.Add(BtnSalir)
         Controls.Add(TextBox3)
@@ -119,8 +123,8 @@ Partial Class Suma
         Controls.Add(BtnCalcular)
         Controls.Add(TextBox2)
         Controls.Add(TextBox1)
-        Name = "Suma"
-        Text = "Suma"
+        Name = "Division"
+        Text = "División"
         ResumeLayout(False)
         PerformLayout()
     End Sub

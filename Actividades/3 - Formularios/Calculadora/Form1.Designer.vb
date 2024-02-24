@@ -33,9 +33,10 @@ Partial Class Form1
         ' BtnSumar
         ' 
         BtnSumar.BackColor = Color.RoyalBlue
+        BtnSumar.Cursor = Cursors.Hand
         BtnSumar.Font = New Font("Calibri", 10F, FontStyle.Bold)
         BtnSumar.ForeColor = Color.White
-        BtnSumar.Location = New Point(22, 94)
+        BtnSumar.Location = New Point(22, 70)
         BtnSumar.Name = "BtnSumar"
         BtnSumar.Size = New Size(102, 29)
         BtnSumar.TabIndex = 0
@@ -45,9 +46,10 @@ Partial Class Form1
         ' BtnRestar
         ' 
         BtnRestar.BackColor = Color.RoyalBlue
+        BtnRestar.Cursor = Cursors.Hand
         BtnRestar.Font = New Font("Calibri", 10F, FontStyle.Bold)
         BtnRestar.ForeColor = Color.White
-        BtnRestar.Location = New Point(130, 94)
+        BtnRestar.Location = New Point(130, 70)
         BtnRestar.Name = "BtnRestar"
         BtnRestar.Size = New Size(102, 29)
         BtnRestar.TabIndex = 1
@@ -57,9 +59,10 @@ Partial Class Form1
         ' BtnMultiplicar
         ' 
         BtnMultiplicar.BackColor = Color.RoyalBlue
+        BtnMultiplicar.Cursor = Cursors.Hand
         BtnMultiplicar.Font = New Font("Calibri", 10F, FontStyle.Bold)
         BtnMultiplicar.ForeColor = Color.White
-        BtnMultiplicar.Location = New Point(181, 129)
+        BtnMultiplicar.Location = New Point(181, 105)
         BtnMultiplicar.Name = "BtnMultiplicar"
         BtnMultiplicar.Size = New Size(102, 29)
         BtnMultiplicar.TabIndex = 2
@@ -69,9 +72,10 @@ Partial Class Form1
         ' BtnDividir
         ' 
         BtnDividir.BackColor = Color.RoyalBlue
+        BtnDividir.Cursor = Cursors.Hand
         BtnDividir.Font = New Font("Calibri", 10F, FontStyle.Bold)
         BtnDividir.ForeColor = Color.White
-        BtnDividir.Location = New Point(238, 94)
+        BtnDividir.Location = New Point(238, 70)
         BtnDividir.Name = "BtnDividir"
         BtnDividir.Size = New Size(102, 29)
         BtnDividir.TabIndex = 3
@@ -81,9 +85,10 @@ Partial Class Form1
         ' BtnElevar
         ' 
         BtnElevar.BackColor = Color.RoyalBlue
+        BtnElevar.Cursor = Cursors.Hand
         BtnElevar.Font = New Font("Calibri", 10F, FontStyle.Bold)
         BtnElevar.ForeColor = Color.White
-        BtnElevar.Location = New Point(73, 129)
+        BtnElevar.Location = New Point(73, 105)
         BtnElevar.Name = "BtnElevar"
         BtnElevar.Size = New Size(102, 29)
         BtnElevar.TabIndex = 4
@@ -94,7 +99,7 @@ Partial Class Form1
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label1.Location = New Point(121, 44)
+        Label1.Location = New Point(121, 30)
         Label1.Name = "Label1"
         Label1.Size = New Size(119, 15)
         Label1.TabIndex = 5
@@ -104,7 +109,7 @@ Partial Class Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(359, 450)
+        ClientSize = New Size(364, 161)
         Controls.Add(Label1)
         Controls.Add(BtnElevar)
         Controls.Add(BtnDividir)

@@ -1,4 +1,4 @@
-﻿Public Class Suma
+﻿Public Class Potencia
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
 
     End Sub
@@ -16,14 +16,20 @@
     End Sub
 
     Private Sub BtnCalcular_Click(sender As Object, e As EventArgs) Handles BtnCalcular.Click
-        Dim num1 As Double = Convert.ToDouble(TextBox1.Text)
-        Dim num2 As Double = Convert.ToDouble(TextBox2.Text)
-        Dim resultado As Double = num1 + num2
-        TextBox3.Text = resultado.ToString()
+        If (TextBox1.Text <> "") And (TextBox2.Text <> "") Then
+            Dim num1 As Double = Convert.ToDouble(TextBox1.Text)
+            Dim num2 As Double = Convert.ToDouble(TextBox2.Text)
+            Dim resultado As Double = num1 ^ num2
+            TextBox3.Text = resultado.ToString()
+        Else
+            MsgBox("Inserte los números para calcular")
+        End If
     End Sub
 
     Private Sub BtnVolver_Click(sender As Object, e As EventArgs) Handles BtnVolver.Click
-
+        Dim form1 As New Form1()
+        form1.Show()
+        Me.Close()
     End Sub
 
     Private Sub BtnSalir_Click(sender As Object, e As EventArgs) Handles BtnSalir.Click
