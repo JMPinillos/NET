@@ -55,8 +55,7 @@ create table if not exists profesores
     nombre           varchar(40) not null,
     apellidos        varchar(40) not null,
     fecha_nacimiento date        null,
-    id_genero        int         not null,
-    id_departamento  int         not null,
+    id_genero        int         not null,    
     constraint profesores_departamentos_id_departamento_fk
         foreign key (id_departamento) references departamentos (id_departamento),
     constraint profesores_genero_id_genero_fk

@@ -27,17 +27,17 @@ values  (1, 'Informática'),
         (7, 'Medicina'); 
 
 -- INSERTAMOS DATOS EN LA TABLA PROFESORES
-insert into academia.profesores (id_profesor, nombre, apellidos, fecha_nacimiento, id_genero, id_departamento)
-values  (1, 'Luis', 'Pedraza Gomara', '1975-03-15', 1, 3),
-        (2, 'Alfonso', 'de la Orden Lopez', '1970-12-25', 1, 1),
-        (3, 'María Teresa', 'Saenz López', '1969-06-18', 2, 7),
-        (4, 'Susana', 'Quiros Arnedo', '1973-06-27', 2, 5),
-        (5, 'Carlos', 'Gomez Fernandez', '1980-04-15', 1, 3),
-        (6, 'María', 'Lopez Ruiz', '1975-08-22', 2, 4),
-        (7, 'Juan', 'Martinez Soler', '1982-01-30', 1, 1),
-        (8, 'Ana', 'Jimenez Lago', '1978-03-05', 2, 2),
-        (9, 'Luis', 'Perez Giraldo', '1969-11-12', 1, 5),
-        (10, 'Sofía', 'Morales Díaz', '1985-07-19', 2, 3);
+insert into academia.profesores (id_profesor, nombre, apellidos, fecha_nacimiento, id_genero)
+values  (1, 'Luis', 'Pedraza Gomara', '1975-03-15', 1),
+        (2, 'Alfonso', 'de la Orden Lopez', '1970-12-25', 1),
+        (3, 'María Teresa', 'Saenz López', '1969-06-18', 2),
+        (4, 'Susana', 'Quiros Arnedo', '1973-06-27', 2),
+        (5, 'Carlos', 'Gomez Fernandez', '1980-04-15', 1),
+        (6, 'María', 'Lopez Ruiz', '1975-08-22', 2),
+        (7, 'Juan', 'Martinez Soler', '1982-01-30', 1),
+        (8, 'Ana', 'Jimenez Lago', '1978-03-05', 2),
+        (9, 'Luis', 'Perez Giraldo', '1969-11-12', 1),
+        (10, 'Sofía', 'Morales Díaz', '1985-07-19', 2);
 
 -- INSERTAMOS DATOS EN LA TABLA DEPARTAMENTO_PROFESOR
 insert into academia.departamento_profesor (id_departamento, id_profesor)
