@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-02-2024 a las 18:31:59
+-- Tiempo de generación: 27-02-2024 a las 11:58:03
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -58,7 +58,7 @@ INSERT INTO `alumnos` (`id_alumno`, `nombre`, `apellidos`, `id_genero`, `fecha_n
 --
 
 CREATE TABLE `asignaturas` (
-  `id_asignaturas` int(11) NOT NULL,
+  `id_asignatura` int(11) NOT NULL,
   `id_departamento` int(11) DEFAULT NULL,
   `creditos` int(11) NOT NULL,
   `nombre` varchar(40) NOT NULL,
@@ -69,7 +69,7 @@ CREATE TABLE `asignaturas` (
 -- Volcado de datos para la tabla `asignaturas`
 --
 
-INSERT INTO `asignaturas` (`id_asignaturas`, `id_departamento`, `creditos`, `nombre`, `descripción`) VALUES
+INSERT INTO `asignaturas` (`id_asignatura`, `id_departamento`, `creditos`, `nombre`, `descripción`) VALUES
 (1, 1, 6, 'Programación Avanzada', 'Curso avanzado de programación.'),
 (2, 1, 6, 'Bases de Datos', 'Estudio de sistemas de gestión de bases de datos.'),
 (3, 2, 6, 'Química Orgánica', 'Fundamentos y aplicaciones de la química orgánica.'),
@@ -252,25 +252,24 @@ CREATE TABLE `profesores` (
   `nombre` varchar(40) NOT NULL,
   `apellidos` varchar(40) NOT NULL,
   `fecha_nacimiento` date DEFAULT NULL,
-  `id_genero` int(11) NOT NULL,
-  `id_departamento` int(11) NOT NULL
+  `id_genero` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `profesores`
 --
 
-INSERT INTO `profesores` (`id_profesor`, `nombre`, `apellidos`, `fecha_nacimiento`, `id_genero`, `id_departamento`) VALUES
-(1, 'Luis', 'Pedraza Gomara', '1975-03-15', 1, 3),
-(2, 'Alfonso', 'de la Orden Lopez', '1970-12-25', 1, 1),
-(3, 'María Teresa', 'Saenz López', '1969-06-18', 2, 7),
-(4, 'Susana', 'Quiros Arnedo', '1973-06-27', 2, 5),
-(5, 'Carlos', 'Gomez Fernandez', '1980-04-15', 1, 3),
-(6, 'María', 'Lopez Ruiz', '1975-08-22', 2, 4),
-(7, 'Juan', 'Martinez Soler', '1982-01-30', 1, 1),
-(8, 'Ana', 'Jimenez Lago', '1978-03-05', 2, 2),
-(9, 'Luis', 'Perez Giraldo', '1969-11-12', 1, 5),
-(10, 'Sofía', 'Morales Díaz', '1985-07-19', 2, 3);
+INSERT INTO `profesores` (`id_profesor`, `nombre`, `apellidos`, `fecha_nacimiento`, `id_genero`) VALUES
+(1, 'Luis', 'Pedraza Gomara', '1975-03-15', 1),
+(2, 'Alfonso', 'de la Orden Lopez', '1970-12-25', 1),
+(3, 'María Teresa', 'Saenz López', '1969-06-18', 2),
+(4, 'Susana', 'Quiros Arnedo', '1973-06-27', 2),
+(5, 'Carlos', 'Gomez Fernandez', '1980-04-15', 1),
+(6, 'María', 'Lopez Ruiz', '1975-08-22', 2),
+(7, 'Juan', 'Martinez Soler', '1982-01-30', 1),
+(8, 'Ana', 'Jimenez Lago', '1978-03-05', 2),
+(9, 'Luis', 'Perez Giraldo', '1969-11-12', 1),
+(10, 'Sofía', 'Morales Díaz', '1985-07-19', 2);
 
 --
 -- Índices para tablas volcadas
@@ -287,7 +286,7 @@ ALTER TABLE `alumnos`
 -- Indices de la tabla `asignaturas`
 --
 ALTER TABLE `asignaturas`
-  ADD PRIMARY KEY (`id_asignaturas`),
+  ADD PRIMARY KEY (`id_asignatura`),
   ADD KEY `asignaturas_departamentos_id_departamento_fk` (`id_departamento`);
 
 --
@@ -336,7 +335,6 @@ ALTER TABLE `matriculas`
 --
 ALTER TABLE `profesores`
   ADD PRIMARY KEY (`id_profesor`),
-  ADD KEY `profesores_departamentos_id_departamento_fk` (`id_departamento`),
   ADD KEY `profesores_genero_id_genero_fk` (`id_genero`);
 
 --
@@ -353,7 +351,7 @@ ALTER TABLE `alumnos`
 -- AUTO_INCREMENT de la tabla `asignaturas`
 --
 ALTER TABLE `asignaturas`
-  MODIFY `id_asignaturas` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id_asignatura` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT de la tabla `departamentos`
@@ -408,7 +406,7 @@ ALTER TABLE `direccion_departamento`
 --
 ALTER TABLE `impartir`
   ADD CONSTRAINT `impartir_alumnos_id_alumno_fk` FOREIGN KEY (`id_alumno`) REFERENCES `alumnos` (`id_alumno`),
-  ADD CONSTRAINT `impartir_asignaturas_id_asignaturas_fk` FOREIGN KEY (`id_asignatura`) REFERENCES `asignaturas` (`id_asignaturas`),
+  ADD CONSTRAINT `impartir_asignaturas_id_asignaturas_fk` FOREIGN KEY (`id_asignatura`) REFERENCES `asignaturas` (`id_asignatura`),
   ADD CONSTRAINT `impartir_profesores_id_profesor_fk` FOREIGN KEY (`id_profesor`) REFERENCES `profesores` (`id_profesor`);
 
 --
@@ -416,13 +414,12 @@ ALTER TABLE `impartir`
 --
 ALTER TABLE `matriculas`
   ADD CONSTRAINT `matriculas_alumnos_id_alumno_fk` FOREIGN KEY (`id_alumno`) REFERENCES `alumnos` (`id_alumno`),
-  ADD CONSTRAINT `matriculas_asignaturas_id_asignaturas_fk` FOREIGN KEY (`id_asignatura`) REFERENCES `asignaturas` (`id_asignaturas`);
+  ADD CONSTRAINT `matriculas_asignaturas_id_asignaturas_fk` FOREIGN KEY (`id_asignatura`) REFERENCES `asignaturas` (`id_asignatura`);
 
 --
 -- Filtros para la tabla `profesores`
 --
 ALTER TABLE `profesores`
-  ADD CONSTRAINT `profesores_departamentos_id_departamento_fk` FOREIGN KEY (`id_departamento`) REFERENCES `departamentos` (`id_departamento`),
   ADD CONSTRAINT `profesores_genero_id_genero_fk` FOREIGN KEY (`id_genero`) REFERENCES `genero` (`id_genero`);
 COMMIT;
 
