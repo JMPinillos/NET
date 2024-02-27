@@ -27,13 +27,13 @@ Genere una aplicación que trabaje con el objeto racional de forma que lea un n�
 
 
 
-### [Actividad 3: Formularios](https://github.com/JMPinillos/NET/blob/main/Actividades/2%20-%20Racionales)
+### [Actividad 3: Formularios](https://github.com/JMPinillos/NET/tree/main/Actividades/3%20-%20Formularios/Calculadora)
 
 En esta actividad se le pide crear una aplicación que muestre un formulario en el que pueda seleccionar, usando botones de comando, diferentes operaciones con enteros como: suma, diferencia, producto, división y potencia. Una vez seleccionada la operación aparecerá otro formulario pidiendo los enteros necesarios para la operación y mostrará el resultado, en el formulario de la operación podrá seleccionar si quiere hacer otra operación y volver al menú o salir y que se cierre la aplicación. Se valorará el diseño y creatividad del formulario y su correcto funcionamiento.
 
 
 
-### [Actividad 4: Bases de datos](https://github.com/JMPinillos/NET/blob/main/Actividades/2%20-%20Racionales)
+### [Actividad 4: Bases de datos](https://github.com/JMPinillos/NET/tree/main/Actividades/4%20-%20Bases%20de%20datos)
 
 SQL es el lenguaje más implementado para las bases de datos relacionales y no solamente permite administrar los datos desde dentro de la base de datos, sino que permite manejar la base de datos en sí. El uso de bases de datos es un aspecto fundamental en cualquier aplicación, pero, si cabe, todavía más en una de comercio electrónico. 
 
