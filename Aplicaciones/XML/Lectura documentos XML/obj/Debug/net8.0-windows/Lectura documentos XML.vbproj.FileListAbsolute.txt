@@ -1,0 +1,17 @@
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\obj\Debug\net8.0-windows\Lectura_documentos_XML.Form1.resources
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\obj\Debug\net8.0-windows\Lectura documentos XML.vbproj.GenerateResource.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\obj\Debug\net8.0-windows\Lectura documentos XML.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\obj\Debug\net8.0-windows\Lectura documentos XML.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\obj\Debug\net8.0-windows\Lectura documentos XML.AssemblyInfo.vb
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\obj\Debug\net8.0-windows\Lectura documentos XML.vbproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\obj\Debug\net8.0-windows\Lectura documentos XML.sourcelink.json
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\bin\Debug\net8.0-windows\Lectura documentos XML.exe
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\bin\Debug\net8.0-windows\Lectura documentos XML.deps.json
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\bin\Debug\net8.0-windows\Lectura documentos XML.runtimeconfig.json
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\bin\Debug\net8.0-windows\Lectura documentos XML.dll
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\bin\Debug\net8.0-windows\Lectura documentos XML.pdb
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\obj\Debug\net8.0-windows\Lectura documentos XML.dll
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\obj\Debug\net8.0-windows\refint\Lectura documentos XML.dll
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\obj\Debug\net8.0-windows\Lectura documentos XML.pdb
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\obj\Debug\net8.0-windows\Lectura documentos XML.genruntimeconfig.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Lectura documentos XML\obj\Debug\net8.0-windows\ref\Lectura documentos XML.dll

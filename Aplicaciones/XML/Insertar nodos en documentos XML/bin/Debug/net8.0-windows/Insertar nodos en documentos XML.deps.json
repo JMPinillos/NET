@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Insertar nodos en documentos XML/1.0.0": {
+        "runtime": {
+          "Insertar nodos en documentos XML.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Insertar nodos en documentos XML/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

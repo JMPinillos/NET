@@ -1,0 +1,17 @@
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\bin\Debug\net8.0-windows\Escritura de documentos XML.exe
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\bin\Debug\net8.0-windows\Escritura de documentos XML.deps.json
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\bin\Debug\net8.0-windows\Escritura de documentos XML.runtimeconfig.json
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\bin\Debug\net8.0-windows\Escritura de documentos XML.dll
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\bin\Debug\net8.0-windows\Escritura de documentos XML.pdb
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\obj\Debug\net8.0-windows\Escritura_de_documentos_XML.Form1.resources
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\obj\Debug\net8.0-windows\Escritura de documentos XML.vbproj.GenerateResource.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\obj\Debug\net8.0-windows\Escritura de documentos XML.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\obj\Debug\net8.0-windows\Escritura de documentos XML.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\obj\Debug\net8.0-windows\Escritura de documentos XML.AssemblyInfo.vb
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\obj\Debug\net8.0-windows\Escritura de documentos XML.vbproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\obj\Debug\net8.0-windows\Escritura de documentos XML.sourcelink.json
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\obj\Debug\net8.0-windows\Escritura de documentos XML.dll
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\obj\Debug\net8.0-windows\refint\Escritura de documentos XML.dll
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\obj\Debug\net8.0-windows\Escritura de documentos XML.pdb
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\obj\Debug\net8.0-windows\Escritura de documentos XML.genruntimeconfig.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Escritura de documentos XML\obj\Debug\net8.0-windows\ref\Escritura de documentos XML.dll

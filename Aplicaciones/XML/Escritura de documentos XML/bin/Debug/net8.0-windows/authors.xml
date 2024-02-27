@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Authors>
+  <author
+    code="1">
+    <fname>Carlos</fname>
+    <lname>López</lname>
+  </author>
+  <author
+    code="2">
+    <fname>Juan</fname>
+    <lname>Pérez</lname>
+  </author>
+  <author
+    code="3">
+    <fname>Isabel</fname>
+    <lname>Gómez</lname>
+  </author>
+  <author
+    code="4">
+    <fname>Ana</fname>
+    <lname>Álvarez</lname>
+  </author>
+  <author
+    code="5">
+    <fname>Sergio</fname>
+    <lname>Valdecasas</lname>
+  </author>
+</Authors>

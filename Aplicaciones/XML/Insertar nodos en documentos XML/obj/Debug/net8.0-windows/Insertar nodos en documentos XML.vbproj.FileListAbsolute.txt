@@ -1,0 +1,17 @@
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\obj\Debug\net8.0-windows\Insertar_nodos_en_documentos_XML.Form1.resources
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\obj\Debug\net8.0-windows\Insertar nodos en documentos XML.vbproj.GenerateResource.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\obj\Debug\net8.0-windows\Insertar nodos en documentos XML.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\obj\Debug\net8.0-windows\Insertar nodos en documentos XML.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\obj\Debug\net8.0-windows\Insertar nodos en documentos XML.AssemblyInfo.vb
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\obj\Debug\net8.0-windows\Insertar nodos en documentos XML.vbproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\obj\Debug\net8.0-windows\Insertar nodos en documentos XML.sourcelink.json
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\bin\Debug\net8.0-windows\Insertar nodos en documentos XML.exe
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\bin\Debug\net8.0-windows\Insertar nodos en documentos XML.deps.json
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\bin\Debug\net8.0-windows\Insertar nodos en documentos XML.runtimeconfig.json
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\bin\Debug\net8.0-windows\Insertar nodos en documentos XML.dll
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\bin\Debug\net8.0-windows\Insertar nodos en documentos XML.pdb
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\obj\Debug\net8.0-windows\Insertar nodos en documentos XML.dll
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\obj\Debug\net8.0-windows\refint\Insertar nodos en documentos XML.dll
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\obj\Debug\net8.0-windows\Insertar nodos en documentos XML.pdb
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\obj\Debug\net8.0-windows\Insertar nodos en documentos XML.genruntimeconfig.cache
+\\Mac\Home\Documents\GitHub\NET\Aplicaciones\XML\Insertar nodos en documentos XML\obj\Debug\net8.0-windows\ref\Insertar nodos en documentos XML.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Escritura de documentos XML/1.0.0": {
+        "runtime": {
+          "Escritura de documentos XML.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Escritura de documentos XML/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
