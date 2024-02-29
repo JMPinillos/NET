@@ -30,28 +30,28 @@ Public Class Form1
 
     Private Sub BtnAceptar_Click(sender As Object, e As EventArgs) Handles BtnAceptar.Click
         If RbtInsertAlumno.Checked Then
-            Dim newAlumno As New Form3()
+            Dim newAlumno As New Form2()
             newAlumno.Show()
             Me.Close()
         ElseIf RbtInsertProfesor.Checked Then
-            'Dim newProfesor As New Form4()
-            'newProfesor.Show()
+            Dim newProfesor As New Form3()
+            newProfesor.Show()
             Me.Close()
         ElseIf RbtNewQuery.Checked Then
-            Dim texto As String = "Algunas querys pueden dañar la base de datos." & vbCrLf & "¿que desea continuar?"
-            Dim titulo As String = "Advertencia"
+            Dim texto As String = "Algunas querys pueden dañar la base de datos." & vbCrLf & "¿Seguro que desea continuar?"
+            Dim titulo As String = "ADVERTENCIA"
             Dim respuesta As DialogResult
 
             respuesta = MessageBox.Show(texto, titulo, MessageBoxButtons.YesNo, MessageBoxIcon.Warning)
 
             If respuesta = DialogResult.Yes Then
-                Dim newQuery As New Form2()
+                Dim newQuery As New Form4()
                 newQuery.Show()
                 Me.Close()
             End If
 
         Else
-            MessageBox.Show("No se ha seleccionado ningún RadioButton.")
+            MsgBox("Debe seleccionar alguna opción", vbExclamation, "¡ATENCIÓN!")
         End If
     End Sub
 End Class

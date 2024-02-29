@@ -22,7 +22,7 @@ Public Class Form1
             ' Usar ExecuteScalar para obtener el total de registros y sumarle 1
             codigo = Convert.ToInt32(comando.ExecuteScalar()) + 1
 
-            ' Query para insertar el nuevo artículo
+            ' Query para iniciar el autoincrement en el nuevo código
             Dim query2 As String = "ALTER TABLE articulos AUTO_INCREMENT = " & codigo
             comando.CommandText = query2
             comando.ExecuteNonQuery()

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "q7mu9AUnAbP26+Me9mMEROkR7FoKieKDJd4ZvbH4Re1QSLrJh+0V2qMzYZkBMQosxyLVnVgFn9l//FAimjmIZQ==",
+  "dgSpecHash": "Z8m4cAyF3pqD1IRlqBVqe9uR/N0uRAnh6460+crAD6J2u8O+YVKD3pd/Mlc2SyzCUC7RBxYR5en7Ca5ytCumyw==",
   "success": true,
   "projectFilePath": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\5 - Formularios para rellenar tablas\\Rellenar BBDD\\Rellenar BBDD.vbproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jmproducciones\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\jmproducciones\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512"
+  ],
   "logs": []
 }

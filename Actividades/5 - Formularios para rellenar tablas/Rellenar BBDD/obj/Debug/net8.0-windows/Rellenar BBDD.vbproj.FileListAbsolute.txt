@@ -17,4 +17,9 @@
 \\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.genruntimeconfig.cache
 \\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\ref\Rellenar BBDD.dll
 \\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar_BBDD.Resources.resources
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\bin\Debug\net8.0-windows\MySqlConnector.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.vbproj.AssemblyReference.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar.2E266172.Up2Date
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar_BBDD.Form4.resources
 \\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar_BBDD.Form3.resources

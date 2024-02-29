@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Rellenar BBDD"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a615d298931b4abdfa7359be630d0ead469d2cfa"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96fe022971a56d2862a95d343663356e43eb20ec"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Rellenar BBDD"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Rellenar BBDD"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
