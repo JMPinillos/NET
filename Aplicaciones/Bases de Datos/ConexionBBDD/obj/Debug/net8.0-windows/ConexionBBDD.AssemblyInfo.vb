@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("ConexionBBDD"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26e1fe9ed2b0eaeeebe6b775cc9f558861a80be6"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac7d9ad3dbb808758c8d33f9b618ada9c6c857a1"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("ConexionBBDD"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("ConexionBBDD"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
