@@ -49,8 +49,7 @@ En esta actividad se le pide que use la base de datos de la academia, programe u
 
 
 
-
-### [Actividad 6: Calculadora de fracciones](https://github.com/JMPinillos/NET/tree/main/Actividades/5%20-%20Formularios%20para%20rellenar%20tablas)
+### [Actividad 6: Calculadora de fracciones](https://github.com/JMPinillos/NET/tree/main/Actividades/6%20-%20Calculadora%20de%20fracciones)
 
 En este caso práctico se le pide crear una aplicación para realizar diferentes operaciones de fracciones.
 
