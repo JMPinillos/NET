@@ -27,7 +27,7 @@ Genere una aplicación que trabaje con el objeto racional de forma que lea un n�
 
 
 
-### [Actividad 3: Formularios](https://github.com/JMPinillos/NET/tree/main/Actividades/3%20-%20Formularios/Calculadora)
+### [Actividad 3: Formularios](https://github.com/JMPinillos/NET/tree/main/Actividades/3%20-%20Formularios)
 
 En esta actividad se le pide crear una aplicación que muestre un formulario en el que pueda seleccionar, usando botones de comando, diferentes operaciones con enteros como: suma, diferencia, producto, división y potencia. Una vez seleccionada la operación aparecerá otro formulario pidiendo los enteros necesarios para la operación y mostrará el resultado, en el formulario de la operación podrá seleccionar si quiere hacer otra operación y volver al menú o salir y que se cierre la aplicación. Se valorará el diseño y creatividad del formulario y su correcto funcionamiento.
 
