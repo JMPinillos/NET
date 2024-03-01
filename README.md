@@ -43,6 +43,6 @@ En esta actividad se le pide crear una base de datos llamada academia y en ella 
 
 
 
-### [Actividad 5: Formularios para rellenar tablas](https://github.com/JMPinillos/NET/blob/main/Actividades/2%20-%20Racionales)
+### [Actividad 5: Formularios para rellenar tablas](https://github.com/JMPinillos/NET/tree/main/Actividades/5%20-%20Formularios%20para%20rellenar%20tablas)
 
 En esta actividad se le pide que use la base de datos de la academia, programe una aplicación que le pida a través de un formulario los datos de los alumnos de la academia, el formulario debe tener los mismos campos que la tabla de alumnos de la base de datos, cada vez que se rellene un formulario con los datos de un alumno, estos datos se almacenarán en la tabla correspondiente de la base de datos, igual se debe hacer con los datos de los docentes que se almacenarán en la correspondiente tabla de la base de datos de la academia.
