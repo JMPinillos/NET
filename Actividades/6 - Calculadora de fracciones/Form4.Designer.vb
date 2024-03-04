@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class Form4
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,9 +20,9 @@ Partial Class Form2
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        BtnRestar = New Button()
+        BtnDiv = New Button()
         BtnVolver = New Button()
         Label2 = New Label()
         Label1 = New Label()
@@ -37,19 +37,19 @@ Partial Class Form2
         TxbDenResult = New TextBox()
         Label6 = New Label()
         LblSimbol = New Label()
-        BtnSumar = New Button()
+        BtnMulti = New Button()
         Label8 = New Label()
         SuspendLayout()
         ' 
-        ' BtnRestar
+        ' BtnDiv
         ' 
-        BtnRestar.Cursor = Cursors.Hand
-        BtnRestar.Location = New Point(178, 117)
-        BtnRestar.Name = "BtnRestar"
-        BtnRestar.Size = New Size(75, 23)
-        BtnRestar.TabIndex = 6
-        BtnRestar.Text = "Restar"
-        BtnRestar.UseVisualStyleBackColor = True
+        BtnDiv.Cursor = Cursors.Hand
+        BtnDiv.Location = New Point(178, 117)
+        BtnDiv.Name = "BtnDiv"
+        BtnDiv.Size = New Size(75, 23)
+        BtnDiv.TabIndex = 6
+        BtnDiv.Text = "Dividir"
+        BtnDiv.UseVisualStyleBackColor = True
         ' 
         ' BtnVolver
         ' 
@@ -178,15 +178,15 @@ Partial Class Form2
         LblSimbol.Text = "S"
         LblSimbol.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' BtnSumar
+        ' BtnMulti
         ' 
-        BtnSumar.Cursor = Cursors.Hand
-        BtnSumar.Location = New Point(95, 117)
-        BtnSumar.Name = "BtnSumar"
-        BtnSumar.Size = New Size(75, 23)
-        BtnSumar.TabIndex = 5
-        BtnSumar.Text = "Sumar"
-        BtnSumar.UseVisualStyleBackColor = True
+        BtnMulti.Cursor = Cursors.Hand
+        BtnMulti.Location = New Point(95, 117)
+        BtnMulti.Name = "BtnMulti"
+        BtnMulti.Size = New Size(75, 23)
+        BtnMulti.TabIndex = 5
+        BtnMulti.Text = "Multiplicar"
+        BtnMulti.UseVisualStyleBackColor = True
         ' 
         ' Label8
         ' 
@@ -199,13 +199,13 @@ Partial Class Form2
         Label8.Text = "="
         Label8.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' Form2
+        ' Form4
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(267, 163)
         Controls.Add(Label8)
-        Controls.Add(BtnSumar)
+        Controls.Add(BtnMulti)
         Controls.Add(LblSimbol)
         Controls.Add(TxbNumResult)
         Controls.Add(Label5)
@@ -220,14 +220,14 @@ Partial Class Form2
         Controls.Add(BtnVolver)
         Controls.Add(Label2)
         Controls.Add(Label1)
-        Controls.Add(BtnRestar)
-        Name = "Form2"
-        Text = "Suma y diferencia"
+        Controls.Add(BtnDiv)
+        Name = "Form4"
+        Text = "Array de fracciones"
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents BtnRestar As Button
+    Friend WithEvents BtnDiv As Button
     Friend WithEvents BtnVolver As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
@@ -242,6 +242,6 @@ Partial Class Form2
     Friend WithEvents TxbDenResult As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents LblSimbol As Label
-    Friend WithEvents BtnSumar As Button
+    Friend WithEvents BtnMulti As Button
     Friend WithEvents Label8 As Label
 End Class

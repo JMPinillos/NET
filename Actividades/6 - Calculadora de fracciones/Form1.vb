@@ -1,6 +1,4 @@
-﻿
-
-Public Class Form1
+﻿Public Class Form1
     Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles RbtSumDif.CheckedChanged
         If RbtSumDif.Checked Then
             RbtSumDif.Font = New Font(RbtSumDif.Font, FontStyle.Bold)
@@ -20,10 +18,8 @@ Public Class Form1
     Private Sub RbtNewQuery_CheckedChanged(sender As Object, e As EventArgs) Handles RbtArray.CheckedChanged
         If RbtArray.Checked Then
             RbtArray.Font = New Font(RbtArray.Font, FontStyle.Bold)
-            RbtArray.ForeColor = Color.Red
         Else
             RbtArray.Font = New Font(RbtArray.Font, FontStyle.Regular)
-            RbtArray.ForeColor = Color.Black
         End If
     End Sub
 
@@ -33,15 +29,38 @@ Public Class Form1
             form2.Show()
             Me.Close()
         ElseIf RbtDivProd.Checked Then
-            ' Dim form3 As New Form3()
-            'form3.Show()
-            'Me.Close()
+            Dim form3 As New Form3()
+            form3.Show()
+            Me.Close()
         ElseIf RbtArray.Checked Then
-            'Dim form4 As New Form4()
-            'form4.Show()
-            'Me.Close()
-        Else
-            MsgBox("Debe seleccionar alguna opción", vbExclamation, "¡ATENCIÓN!")
+
+            ' Declaramos las variables a utilizar
+            Dim input As String
+            Dim numeroFracciones As Integer
+            Dim esNumeroValido As Boolean = False
+
+            Do
+                ' Preguntamos al usuario cuantas fracciones desea ingresar
+                input = InputBox("¿Cuantas fracciones desea ingresar?", "Número de fracciones", "1")
+
+                ' Si el usuario cancela la operación, salimos del bucle
+                If String.IsNullOrEmpty(input) Then
+                    MessageBox.Show("Operación cancelada.", "Cancelado", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    Exit Sub ' Sale del Sub si se cancela la operación
+                End If
+
+                ' Verificamos que la entrada sea un número entero mayor que 0
+                If Integer.TryParse(input, numeroFracciones) AndAlso numeroFracciones > 0 Then
+                    esNumeroValido = True ' Si la entrada es válida, sale del bucle
+                    Dim form4 As New Form4()
+                    form4.Show()
+                    Me.Close()
+                Else
+                    MessageBox.Show("Por favor, ingrese un número entero mayor que 0.", "Entrada no válida", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                End If
+
+            Loop Until esNumeroValido
+
         End If
     End Sub
 End Class

@@ -1,10 +1,26 @@
-﻿Public Class Form2
+﻿Public Class Form3
 
 
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles BtnVolver.Click
         Dim form1 As New Form1
         form1.Show()
         Close()
+    End Sub
+
+    Private Sub TxbNum1_Leave(sender As Object, e As EventArgs) Handles TxbNum1.Leave
+        If Not IsNumeric(TxbNum1.Text) Then
+            MsgBox("Debe ingresar un número", vbExclamation, Title:="¡Atención!")
+            TxbNum1.Text = ""
+            TxbNum1.Focus()
+        End If
+    End Sub
+
+    Private Sub TxbNum2_Leave(sender As Object, e As EventArgs) Handles TxbNum2.Leave
+        If Not IsNumeric(TxbNum2.Text) Then
+            MsgBox("Debe ingresar un número", vbExclamation, Title:="¡Atención!")
+            TxbNum2.Text = ""
+            TxbNum2.Focus()
+        End If
     End Sub
 
     Private Sub TextBox4_Leave(sender As Object, e As EventArgs) Handles TxbDen1.Leave
@@ -34,28 +50,16 @@
         End If
     End Sub
 
-    Private Sub TxbNum1_Leave(sender As Object, e As EventArgs) Handles TxbNum1.Leave
-        If Not IsNumeric(TxbNum1.Text) Then
-            MsgBox("Debe ingresar un número", vbExclamation, Title:="¡Atención!")
-            TxbNum1.Text = ""
-            TxbNum1.Focus()
-        End If
+    Private Sub TxbDen2_TextChanged_1(sender As Object, e As EventArgs) Handles TxbDen2.TextChanged
+
     End Sub
 
-    Private Sub TxbNum2_Leave(sender As Object, e As EventArgs) Handles TxbNum2.Leave
-        If Not IsNumeric(TxbNum2.Text) Then
-            MsgBox("Debe ingresar un número", vbExclamation, Title:="¡Atención!")
-            TxbNum2.Text = ""
-            TxbNum2.Focus()
-        End If
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnSumar.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnMulti.Click
         If TxbDen1.Text = "" Or TxbDen2.Text = "" Or TxbNum1.Text = "" Or TxbNum2.Text = "" Then
             MsgBox("Debe rellenar todos los campos", vbExclamation, Title:="¡Atención!")
         Else
             ' Mostrar el símbolo de la operación
-            LblSimbol.Text = "+"
+            LblSimbol.Text = "x"
 
             Dim num1 As Integer = Convert.ToInt32(TxbNum1.Text)
             Dim den1 As Integer = Convert.ToInt32(TxbDen1.Text)
@@ -63,7 +67,7 @@
             Dim den2 As Integer = Convert.ToInt32(TxbDen2.Text)
 
             ' Calcular el numerador y el denominador del resultado
-            Dim numResult As Integer = num1 * den2 + num2 * den1
+            Dim numResult As Integer = num1 * num2
             Dim denResult As Integer = den1 * den2
 
             ' Simplificar el resultado
@@ -77,18 +81,7 @@
         End If
     End Sub
 
-    ' Calcular el máximo común divisor de dos números
-    Private Function MCD(a As Integer, b As Integer) As Integer
-        ' Repetir mientras los dos números sean diferentes
-        While b <> 0
-            Dim temp As Integer = b
-            b = a Mod b
-            a = temp
-        End While
-        Return a
-    End Function
-
-    Private Sub BtnRestar_Click(sender As Object, e As EventArgs) Handles BtnRestar.Click
+    Private Sub BtnRestar_Click(sender As Object, e As EventArgs) Handles BtnDiv.Click
         If TxbDen1.Text = "" Or TxbDen2.Text = "" Or TxbNum1.Text = "" Or TxbNum2.Text = "" Then
             MsgBox("Debe rellenar todos los campos", vbExclamation, Title:="¡Atención!")
         Else
@@ -101,8 +94,8 @@
             Dim den2 As Integer = Convert.ToInt32(TxbDen2.Text)
 
             ' Calcular el numerador y el denominador del resultado
-            Dim numResult As Integer = num1 * den2 - num2 * den1
-            Dim denResult As Integer = den1 * den2
+            Dim numResult As Integer = num1 * den2
+            Dim denResult As Integer = den1 * num2
 
             ' Simplificar el resultado
             Dim divisor As Integer = MCD(numResult, denResult)
@@ -118,4 +111,16 @@
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LblSimbol.Text = ""
     End Sub
+
+    ' Calcular el máximo común divisor de dos números
+    Private Function MCD(a As Integer, b As Integer) As Integer
+        ' Repetir mientras los dos números sean diferentes
+        While b <> 0
+            Dim temp As Integer = b
+            b = a Mod b
+            a = temp
+        End While
+        Return a
+    End Function
+
 End Class
