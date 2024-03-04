@@ -1,0 +1,50 @@
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar_BBDD.Form1.resources
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar_BBDD.Form2.resources
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.vbproj.GenerateResource.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.AssemblyInfo.vb
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.vbproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.sourcelink.json
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\bin\Debug\net8.0-windows\Rellenar BBDD.exe
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\bin\Debug\net8.0-windows\Rellenar BBDD.deps.json
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\bin\Debug\net8.0-windows\Rellenar BBDD.runtimeconfig.json
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\bin\Debug\net8.0-windows\Rellenar BBDD.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\bin\Debug\net8.0-windows\Rellenar BBDD.pdb
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\refint\Rellenar BBDD.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.pdb
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.genruntimeconfig.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\ref\Rellenar BBDD.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar_BBDD.Resources.resources
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\bin\Debug\net8.0-windows\MySqlConnector.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.vbproj.AssemblyReference.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar.2E266172.Up2Date
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar_BBDD.Form4.resources
+\\Mac\Home\Documents\GitHub\NET\Actividades\5 - Formularios para rellenar tablas\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar_BBDD.Form3.resources
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\bin\Debug\net8.0-windows\Rellenar BBDD.exe
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\bin\Debug\net8.0-windows\Rellenar BBDD.deps.json
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\bin\Debug\net8.0-windows\Rellenar BBDD.runtimeconfig.json
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\bin\Debug\net8.0-windows\Rellenar BBDD.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\bin\Debug\net8.0-windows\Rellenar BBDD.pdb
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\bin\Debug\net8.0-windows\MySqlConnector.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.vbproj.AssemblyReference.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar_BBDD.Form1.resources
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar_BBDD.Form2.resources
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar_BBDD.Form3.resources
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar_BBDD.Form4.resources
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar_BBDD.Resources.resources
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.vbproj.GenerateResource.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.AssemblyInfo.vb
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.vbproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.sourcelink.json
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar.2E266172.Up2Date
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\refint\Rellenar BBDD.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.pdb
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\Rellenar BBDD.genruntimeconfig.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\Rellenar BBDD\obj\Debug\net8.0-windows\ref\Rellenar BBDD.dll

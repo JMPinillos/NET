@@ -1,0 +1,23 @@
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\bin\Debug\net8.0-windows\Calculadora de fracciones.exe
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\bin\Debug\net8.0-windows\Calculadora de fracciones.deps.json
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\bin\Debug\net8.0-windows\Calculadora de fracciones.runtimeconfig.json
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\bin\Debug\net8.0-windows\Calculadora de fracciones.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\bin\Debug\net8.0-windows\Calculadora de fracciones.pdb
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\bin\Debug\net8.0-windows\MySqlConnector.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Calculadora de fracciones.vbproj.AssemblyReference.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Rellenar_BBDD.Form1.resources
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Rellenar_BBDD.Form2.resources
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Rellenar_BBDD.Resources.resources
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Calculadora de fracciones.vbproj.GenerateResource.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Calculadora de fracciones.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Calculadora de fracciones.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Calculadora de fracciones.AssemblyInfo.vb
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Calculadora de fracciones.vbproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Calculadora de fracciones.sourcelink.json
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Calculad.91E0F9B0.Up2Date
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Calculadora de fracciones.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\refint\Calculadora de fracciones.dll
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Calculadora de fracciones.pdb
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Calculadora de fracciones.genruntimeconfig.cache
+\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\ref\Calculadora de fracciones.dll
