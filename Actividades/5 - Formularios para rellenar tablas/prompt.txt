@@ -1,0 +1,243 @@
+Ahora vamos a hacer lo mismo con otra aplicación:
+En esta actividad se le pide que use la base de datos de la academia, programe una aplicación que le pida a través de un formulario los datos de los alumnos de la academia, el formulario debe tener los mismos campos que la tabla de alumnos de la base de datos, cada vez que se rellene un formulario con los datos de un alumno, estos datos se almacenarán en la tabla correspondiente de la base de datos, igual se debe hacer con los datos de los docentes que se almacenarán en la correspondiente tabla de la base de datos de la academia.
+
+Entonces, ahora te voy a ir pasando el código de la aplicación para que la analices y redactes lo siguiente:
+
+- Título: Calculadora de fracciones
+- Introducción: lo que tu consideres.
+- Desarrollo de la aplicación: esto contendra:
+	- Tecnologias utilizadas.
+	- Estructura
+	- Desarrollo e implementación
+	- Conclusiones
+
+Código:
+
+Formulario 1:
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Button
+
+Public Class Form1
+    Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles RbtInsertAlumno.CheckedChanged
+        If RbtInsertAlumno.Checked Then
+            RbtInsertAlumno.Font = New Font(RbtInsertAlumno.Font, FontStyle.Bold)
+        Else
+            RbtInsertAlumno.Font = New Font(RbtInsertAlumno.Font, FontStyle.Regular)
+        End If
+    End Sub
+
+    Private Sub RbtInsertProfesor_CheckedChanged(sender As Object, e As EventArgs) Handles RbtInsertProfesor.CheckedChanged
+        If RbtInsertProfesor.Checked Then
+            RbtInsertProfesor.Font = New Font(RbtInsertProfesor.Font, FontStyle.Bold)
+        Else
+            RbtInsertProfesor.Font = New Font(RbtInsertProfesor.Font, FontStyle.Regular)
+        End If
+    End Sub
+
+    Private Sub RbtNewQuery_CheckedChanged(sender As Object, e As EventArgs) Handles RbtNewQuery.CheckedChanged
+        If RbtNewQuery.Checked Then
+            RbtNewQuery.Font = New Font(RbtNewQuery.Font, FontStyle.Bold)
+            RbtNewQuery.ForeColor = Color.Red
+        Else
+            RbtNewQuery.Font = New Font(RbtNewQuery.Font, FontStyle.Regular)
+            RbtNewQuery.ForeColor = Color.Black
+        End If
+    End Sub
+
+    Private Sub BtnAceptar_Click(sender As Object, e As EventArgs) Handles BtnAceptar.Click
+        If RbtInsertAlumno.Checked Then
+            Dim newAlumno As New Form2()
+            newAlumno.Show()
+            Me.Close()
+        ElseIf RbtInsertProfesor.Checked Then
+            Dim newProfesor As New Form3()
+            newProfesor.Show()
+            Me.Close()
+        ElseIf RbtNewQuery.Checked Then
+            Dim texto As String = "Algunas querys pueden dañar la base de datos." & vbCrLf & "¿Seguro que desea continuar?"
+            Dim titulo As String = "ADVERTENCIA"
+            Dim respuesta As DialogResult
+
+            respuesta = MessageBox.Show(texto, titulo, MessageBoxButtons.YesNo, MessageBoxIcon.Warning)
+
+            If respuesta = DialogResult.Yes Then
+                Dim newQuery As New Form4()
+                newQuery.Show()
+                Me.Close()
+            End If
+
+        Else
+            MsgBox("Debe seleccionar alguna opción", vbExclamation, "¡ATENCIÓN!")
+        End If
+    End Sub
+End Class
+
+Formulario 2:
+Imports MySqlConnector
+Public Class Form2
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnSend.Click
+
+        If TxtName.Text = "" Or TxtLastName.Text = "" Or DtpBirthday.Value.ToString = "" Or CbxGender.Text = "" Then
+            MsgBox("Debe rellenar todos los campos", vbExclamation, Title:="¡Atención!")
+        Else
+            Dim nombre As String = TxtName.Text
+            Dim apellido As String = TxtLastName.Text
+            Dim birthDate As Date = DtpBirthday.Value.ToString("yyyy-MM-dd")
+            Dim genero As Integer
+
+            If CbxGender.Text.Equals("Masculino") Or CbxGender.Text.Equals("Femenino") Then
+                If CbxGender.Text = "Masculino" Then
+                    genero = 1
+                Else
+                    genero = 2
+                End If
+
+                Dim mysqlCon As String = "server=127.0.0.1;userid=root;password=;database=academia"
+                Dim conexion As New MySqlConnection(mysqlCon)
+
+                Try
+                    conexion.Open()
+
+                    ' CREAMOS LA CONSULTA PARA INSERTAR LOS DATOS EN LA BASE DE DATOS
+                    Dim query1 As String = "INSERT INTO alumnos (nombre, apellidos, fecha_nacimiento, id_genero) VALUES (@nombre, @apellidos, @fecha_nacimiento, @id_genero)"
+                    Dim comando As New MySqlCommand(query1, conexion)
+
+                    ' AÑADIMOS LOS PARÁMETROS Y ASI EVITAMOS SQL INJECTION
+                    comando.Parameters.AddWithValue("@nombre", nombre)
+                    comando.Parameters.AddWithValue("@apellidos", apellido)
+                    comando.Parameters.AddWithValue("@fecha_nacimiento", birthDate)
+                    comando.Parameters.AddWithValue("@id_genero", genero)
+
+                    ' EJECUTAMOS LA CONSULTA
+                    comando.CommandText = query1
+                    comando.ExecuteNonQuery()
+
+                Catch ex As Exception
+                    MessageBox.Show(ex.Message)
+                Finally
+                    conexion.Close()
+                End Try
+
+                ' MOSTRAMOS UN MENSAJE DE QUE SE HA CREADO EL ALUMNO
+                Dim mensaje As String = "Nombre: " & nombre & vbCrLf & "Apellido: " & apellido & vbCrLf & "Fecha de nacimiento: " & birthDate & vbCrLf & "Género: " & CbxGender.Text
+                MsgBox(mensaje, vbInformation, Title:="Nuevo alumno creado")
+                Dim form1 As New Form1
+                form1.Show()
+                Close()
+            Else
+                MsgBox("El género solo puede ser Masculino o Femenino", vbExclamation, Title:="¡Atención!")
+            End If
+        End If
+    End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles BtnVolver.Click
+        Dim form1 As New Form1
+        form1.Show()
+        Close()
+    End Sub
+End Class
+
+Formulario 3:
+Imports MySqlConnector
+Public Class Form3
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnSend.Click
+
+        If TxtName.Text = "" Or TxtLastName.Text = "" Or DtpBirthday.Value.ToString = "" Or CbxGender.Text = "" Then
+            MsgBox("Debe rellenar todos los campos", vbExclamation, Title:="¡ATENCIÓN!")
+        Else
+            Dim nombre As String = TxtName.Text
+            Dim apellido As String = TxtLastName.Text
+            Dim birthDate As Date = DtpBirthday.Value.ToString("yyyy-MM-dd")
+            Dim genero As Integer
+
+            If CbxGender.Text.Equals("Masculino") Or CbxGender.Text.Equals("Femenino") Then
+                If CbxGender.Text = "Masculino" Then
+                    genero = 1
+                Else
+                    genero = 2
+                End If
+
+                Dim mysqlCon As String = "server=127.0.0.1;userid=root;password=;database=academia"
+                Dim conexion As New MySqlConnection(mysqlCon)
+
+                Try
+                    conexion.Open()
+
+                    ' CREAMOS LA CONSULTA PARA INSERTAR LOS DATOS EN LA BASE DE DATOS
+                    Dim query1 As String = "INSERT INTO profesores (nombre, apellidos, fecha_nacimiento, id_genero) VALUES (@nombre, @apellidos, @fecha_nacimiento, @id_genero)"
+                    Dim comando As New MySqlCommand(query1, conexion)
+
+                    ' AÑADIMOS LOS PARÁMETROS Y ASI EVITAMOS SQL INJECTION
+                    comando.Parameters.AddWithValue("@nombre", nombre)
+                    comando.Parameters.AddWithValue("@apellidos", apellido)
+                    comando.Parameters.AddWithValue("@fecha_nacimiento", birthDate)
+                    comando.Parameters.AddWithValue("@id_genero", genero)
+
+                    ' EJECUTAMOS LA CONSULTA
+                    comando.CommandText = query1
+                    comando.ExecuteNonQuery()
+
+                Catch ex As Exception
+                    MessageBox.Show(ex.Message)
+                Finally
+                    conexion.Close()
+                End Try
+
+                ' MOSTRAMOS UN MENSAJE DE QUE SE HA CREADO EL ALUMNO
+                Dim mensaje As String = "Nombre: " & nombre & vbCrLf & "Apellido: " & apellido & vbCrLf & "Fecha de nacimiento: " & birthDate & vbCrLf & "Género: " & CbxGender.Text
+                MsgBox(mensaje, vbInformation, Title:="Nuevo profesor creado")
+                Dim form1 As New Form1
+                form1.Show()
+                Close()
+            Else
+                MsgBox("El género solo puede ser Masculino o Femenino", vbExclamation, Title:="¡ATENCIÓN!")
+            End If
+        End If
+    End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim form1 As New Form1
+        form1.Show()
+        Close()
+    End Sub
+End Class
+
+Formulario 4:
+Imports MySqlConnector
+Imports System.Runtime.InteropServices.JavaScript.JSType
+
+Public Class Form4
+    Private Sub SendQuery_Click(sender As Object, e As EventArgs) Handles SendQuery.Click
+
+        Dim mysqlCon As String = "server=127.0.0.1;userid=root;password=;database=academia"
+        Dim conexion As New MySqlConnection(mysqlCon)
+
+        Try
+            conexion.Open()
+
+            ' CREAMOS LA CONSULTA PARA INSERTAR LOS DATOS EN LA BASE DE DATOS
+            Dim query1 As String = TextBoxQuery.Text
+
+            Dim comando As New MySqlCommand(query1, conexion)
+            Dim adaptador As New MySqlDataAdapter(query1, conexion)
+            Dim dt As New DataTable
+            adaptador.Fill(dt)
+            DataGridView1.DataSource = dt
+
+            ' EJECUTAMOS LA CONSULTA
+            comando.CommandText = query1
+            comando.ExecuteNonQuery()
+
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        Finally
+            conexion.Close()
+        End Try
+    End Sub
+
+    Private Sub BtnVolver_Click(sender As Object, e As EventArgs) Handles BtnVolver.Click
+        Dim Form1 As New Form1
+        Form1.Show()
+        Me.Hide()
+    End Sub
+End Class
