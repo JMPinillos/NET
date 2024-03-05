@@ -34,8 +34,8 @@ Private Sub BtnAceptar_Click(sender As Object, e As EventArgs) Handles BtnAcepta
   ElseIf RbtDivProd.Checked Then
       ' ...
       ' Otras condiciones
-      End If
-  End Sub
+  End If
+End Sub
 ```
 
 
