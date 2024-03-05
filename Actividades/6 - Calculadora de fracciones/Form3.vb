@@ -1,6 +1,8 @@
 ﻿Public Class Form3
 
-
+    Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        LblSimbol.Text = ""
+    End Sub
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles BtnVolver.Click
         Dim form1 As New Form1
         form1.Show()
@@ -86,7 +88,7 @@
             MsgBox("Debe rellenar todos los campos", vbExclamation, Title:="¡Atención!")
         Else
             ' Mostrar el símbolo de la operación
-            LblSimbol.Text = "-"
+            LblSimbol.Text = "/"
 
             Dim num1 As Integer = Convert.ToInt32(TxbNum1.Text)
             Dim den1 As Integer = Convert.ToInt32(TxbDen1.Text)
@@ -106,10 +108,6 @@
             TxbNumResult.Text = numResult.ToString()
             TxbDenResult.Text = denResult.ToString()
         End If
-    End Sub
-
-    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        LblSimbol.Text = ""
     End Sub
 
     ' Calcular el máximo común divisor de dos números

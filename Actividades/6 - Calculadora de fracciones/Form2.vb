@@ -1,5 +1,8 @@
 ﻿Public Class Form2
 
+    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        LblSimbol.Text = ""
+    End Sub
 
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles BtnVolver.Click
         Dim form1 As New Form1
@@ -77,17 +80,6 @@
         End If
     End Sub
 
-    ' Calcular el máximo común divisor de dos números
-    Private Function MCD(a As Integer, b As Integer) As Integer
-        ' Repetir mientras los dos números sean diferentes
-        While b <> 0
-            Dim temp As Integer = b
-            b = a Mod b
-            a = temp
-        End While
-        Return a
-    End Function
-
     Private Sub BtnRestar_Click(sender As Object, e As EventArgs) Handles BtnRestar.Click
         If TxbDen1.Text = "" Or TxbDen2.Text = "" Or TxbNum1.Text = "" Or TxbNum2.Text = "" Then
             MsgBox("Debe rellenar todos los campos", vbExclamation, Title:="¡Atención!")
@@ -115,7 +107,14 @@
         End If
     End Sub
 
-    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        LblSimbol.Text = ""
-    End Sub
+    ' Calcular el máximo común divisor de dos números
+    Private Function MCD(a As Integer, b As Integer) As Integer
+        ' Repetir mientras los dos números sean diferentes
+        While b <> 0
+            Dim temp As Integer = b
+            b = a Mod b
+            a = temp
+        End While
+        Return a
+    End Function
 End Class

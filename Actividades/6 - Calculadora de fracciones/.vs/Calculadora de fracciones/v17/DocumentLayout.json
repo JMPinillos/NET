@@ -3,16 +3,13 @@
   "WorkspaceRootPath": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91CEA0E6-CCEF-4509-A570-CD4E6FD03964}|Calculadora de fracciones.vbproj|\\\\mac\\home\\documents\\github\\net\\actividades\\6 - calculadora de fracciones\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91CEA0E6-CCEF-4509-A570-CD4E6FD03964}|Calculadora de fracciones.vbproj|\\\\mac\\home\\documents\\github\\net\\actividades\\6 - calculadora de fracciones\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{91CEA0E6-CCEF-4509-A570-CD4E6FD03964}|Calculadora de fracciones.vbproj|\\\\mac\\home\\documents\\github\\net\\actividades\\6 - calculadora de fracciones\\arrayfracciones.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91CEA0E6-CCEF-4509-A570-CD4E6FD03964}|Calculadora de fracciones.vbproj|\\\\mac\\home\\documents\\github\\net\\actividades\\6 - calculadora de fracciones\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91CEA0E6-CCEF-4509-A570-CD4E6FD03964}|Calculadora de fracciones.vbproj|\\\\mac\\home\\documents\\github\\net\\actividades\\6 - calculadora de fracciones\\form4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{91CEA0E6-CCEF-4509-A570-CD4E6FD03964}|Calculadora de fracciones.vbproj|\\\\mac\\home\\documents\\github\\net\\actividades\\6 - calculadora de fracciones\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,53 +23,42 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form2.vb",
               "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Form2.vb",
               "RelativeDocumentMoniker": "Form2.vb",
               "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Form2.vb",
               "RelativeToolTip": "Form2.vb",
-              "ViewState": "AQIAACQAAACAAAAAAAAXwB4AAAAiAAAA",
+              "ViewState": "AQIAAE0AAAAAOjMzM7MYwF0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-04T16:57:24.666Z",
+              "WhenOpened": "2024-03-04T21:50:56.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.vb",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Form1.vb",
-              "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Form1.vb*",
-              "RelativeToolTip": "Form1.vb*",
-              "ViewState": "AQIAABwAAABA0czMzAwwwDwAAAAAAAAA",
+              "Title": "ArrayFracciones.vb",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\ArrayFracciones.vb",
+              "RelativeDocumentMoniker": "ArrayFracciones.vb",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\ArrayFracciones.vb*",
+              "RelativeToolTip": "ArrayFracciones.vb*",
+              "ViewState": "AQIAAAwAAAAADGdmZmbWvyQAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-04T16:53:11.197Z",
+              "WhenOpened": "2024-03-04T20:58:35.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.vb [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "Form1.vb",
               "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Form1.vb [Dise\u00F1o]*",
-              "RelativeToolTip": "Form1.vb [Dise\u00F1o]*",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Form1.vb",
+              "RelativeToolTip": "Form1.vb",
+              "ViewState": "AQIAABAAAACA7v///38WwDAAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-04T16:53:08.626Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form4.vb [Dise\u00F1o]",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Form4.vb",
-              "RelativeDocumentMoniker": "Form4.vb",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Form4.vb [Dise\u00F1o]",
-              "RelativeToolTip": "Form4.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-04T16:49:20.485Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-03-04T20:45:52.453Z",
+              "EditorCaption": ""
             }
           ]
         }

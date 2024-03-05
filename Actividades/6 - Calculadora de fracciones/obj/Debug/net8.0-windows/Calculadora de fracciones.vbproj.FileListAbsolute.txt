@@ -22,4 +22,3 @@
 \\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Calculadora de fracciones.genruntimeconfig.cache
 \\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\ref\Calculadora de fracciones.dll
 \\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Rellenar_BBDD.Form3.resources
-\\Mac\Home\Documents\GitHub\NET\Actividades\6 - Calculadora de fracciones\obj\Debug\net8.0-windows\Rellenar_BBDD.Form4.resources

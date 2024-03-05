@@ -43,7 +43,7 @@
                 ' Preguntamos al usuario cuantas fracciones desea ingresar
                 input = InputBox("¿Cuantas fracciones desea ingresar?", "Número de fracciones", "1")
 
-                ' Si el usuario cancela la operación, salimos del bucle
+                ' Si el usuario cancela la operación o no introduce ningun valor, salimos del bucle
                 If String.IsNullOrEmpty(input) Then
                     MessageBox.Show("Operación cancelada.", "Cancelado", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     Exit Sub ' Sale del Sub si se cancela la operación
@@ -52,9 +52,7 @@
                 ' Verificamos que la entrada sea un número entero mayor que 0
                 If Integer.TryParse(input, numeroFracciones) AndAlso numeroFracciones > 0 Then
                     esNumeroValido = True ' Si la entrada es válida, sale del bucle
-                    Dim form4 As New Form4()
-                    form4.Show()
-                    Me.Close()
+                    Dim formFracciones As New ArrayFracciones(numeroFracciones)
                 Else
                     MessageBox.Show("Por favor, ingrese un número entero mayor que 0.", "Entrada no válida", MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 End If
@@ -62,5 +60,9 @@
             Loop Until esNumeroValido
 
         End If
+    End Sub
+
+    Private Sub ArrayFracciones(numeroFracciones)
+
     End Sub
 End Class

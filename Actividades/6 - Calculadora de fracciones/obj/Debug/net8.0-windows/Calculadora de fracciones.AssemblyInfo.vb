@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Calculadora de fracciones"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a590b96d013c00797fda65fbef889da72b8a5e37"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7335fc907bbb50c102aa6206d257de1d885ff46e"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Calculadora de fracciones"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Calculadora de fracciones"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
