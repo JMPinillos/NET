@@ -1,8 +1,8 @@
-# Actividad 6 - Calculadora de Fracciones
+# Actividad 5 - Formulario para rellenar tablas
 
 ## Introducción
 
-El desarrollo de la aplicación "Calculadora de Fracciones" es un proyecto diseñado para explorar y profundizar en el dominio de la programación con .NET, específicamente utilizando VB.NET y Windows Forms. Este proyecto no solo busca proporcionar una herramienta útil para operar con fracciones sino que también sirve como un ejercicio práctico en el diseño e implementación de aplicaciones de escritorio, manejo de eventos, interacción con el usuario y lógica de programación orientada a objetos.
+Este proyecto se centra en el desarrollo de una aplicación de escritorio destinada a facilitar la gestión de datos académicos, específicamente en lo que respecta al registro y almacenamiento de información relacionada con alumnos y docentes dentro de una base de datos de academia. El objetivo es proporcionar una interfaz intuitiva para la inserción de datos a la base de datos y ofrecer una experiencia de usuario eficiente y directa para la administración académica.
 
 
 
@@ -10,71 +10,63 @@ El desarrollo de la aplicación "Calculadora de Fracciones" es un proyecto dise�
 
 ### Tecnologías Utilizadas
 
-- **VB.NET**: Como lenguaje de programación, VB.NET ofrece una sintaxis intuitiva y estructuras de control robustas que facilitan la implementación de algoritmos complejos, así como la manipulación de interfaces gráficas de usuario. La orientación a objetos de VB.NET permite estructurar el proyecto de manera clara y modular, utilizando clases para definir las entidades del dominio, como la entidad `Fraccion`.
-- **Windows Forms**: Proporciona un marco para el desarrollo de interfaces gráficas de usuario en aplicaciones de escritorio de Windows. Utilizando Windows Forms, se diseñan formularios para cada una de las operaciones de fracciones, desde la captura de datos hasta la visualización de resultados, permitiendo una interacción amigable y directa con el usuario.
+- **VB.NET**: Seleccionado por su integración natural con el entorno de desarrollo de Microsoft y su facilidad de uso para la creación de aplicaciones de escritorio. VB.NET permite un manejo eficaz de eventos y una manipulación detallada de los controles de la interfaz de usuario.
+- **Windows Forms**: Utilizado para construir la interfaz gráfica de usuario (GUI) de la aplicación, facilitando la creación de formularios para la inserción y visualización de datos. Windows Forms soporta una amplia variedad de controles que pueden ser personalizados y adaptados según las necesidades específicas del proyecto.
+- **MySQL Connector/NET**: Una biblioteca de ADO.NET que proporciona la funcionalidad necesaria para comunicarse con bases de datos MySQL desde .NET, permitiendo ejecutar comandos SQL, realizar consultas y manejar resultados.
 
  
 
 ### Estructura
 
-El proyecto se organiza en torno a varios formularios que representan diferentes vistas y funcionalidades dentro de la aplicación: 
+La aplicación está estructurada en múltiples formularios, cada uno diseñado para manejar diferentes aspectos de la gestión de datos académicos:
 
 
 
 #### Form1
 
-Este formulario actúa como el menú principal de la aplicación. Implementa lógica de control para dirigir al usuario hacia diferentes operaciones con fracciones. Por ejemplo: 
-
-```vb
-Private Sub BtnAceptar_Click(sender As Object, e As EventArgs) Handles BtnAceptar.Click
-  If RbtSumDif.Checked Then
-    Dim form2 As New Form2()
-    form2.Show()
-    Me.Close()
-  ElseIf RbtDivProd.Checked Then
-      ' ...
-      ' Otras condiciones
-      End If
-  End Sub
-```
+Sirve como el punto de entrada de la aplicación, ofreciendo opciones para insertar datos de alumnos y docentes, así como realizar consultas personalizadas a la base de datos. 
 
 
 
 #### Form2 y Form3
 
-Estos formularios gestionan las operaciones específicas entre fracciones, como la suma, resta, multiplicación y división. Se valida la entrada del usuario para asegurar datos numéricos y denominadores distintos de cero: 
-
-```vb
-Private Sub TxbDen1_Leave(sender As Object, e As EventArgs) Handles TxbDen1.Leave
-  If Not IsNumeric(TxbDen1.Text) OrElse Convert.ToInt32(TxbDen1.Text) = 0 Then
-    MsgBox("El denominador no puede ser 0", vbExclamation, Title:="¡Atención!")
-    TxbDen1.Focus()
-  End If
-End Sub
-```
+Estos formularios están dedicados a la recopilación de datos para alumnos y docentes, respectivamente. Cada formulario contiene campos que corresponden a las columnas de sus respectivas tablas en la base de datos, incluyendo nombre, apellidos, fecha de nacimiento y género.
 
  
 
-#### ArrayFracciones
+#### Form 4
 
-Este formulario introduce un enfoque avanzado al pedir al usuario que defina un número de fracciones, las cuales se almacenan en un array y se procesan en conjunto. Aquí se demuestra el manejo de arrays y bucles:
+Proporciona una interfaz para ejecutar consultas SQL personalizadas, permitiendo al usuario interactuar directamente con la base de datos y visualizar los resultados a través de un `DataGridView`.
 
-```vb
-For i As Integer = 0 To numeroFracciones - 1
-	' Lógica para recopilar y procesar cada fracción
-Next
-```
 
- 
 
 ### Implementación
 
- La implementación de la "Calculadora de Fracciones" subraya la importancia de una arquitectura bien diseñada, mostrando cómo los componentes individuales, formularios, clases y métodos, trabajan conjuntamente para formar una aplicación cohesiva y funcional. La clase `Fraccion` es fundamental en este diseño, encapsulando la lógica específica de las fracciones y permitiendo su fácil manipulación a través de la aplicación.
+Cada formulario implementa validaciones de entrada para asegurar que los datos recopilados sean correctos y completos antes de intentar insertarlos en la base de datos. Por ejemplo, el formulario para ingresar datos de alumnos (`Form2`) incluye controles para verificar que todos los campos estén llenos y que los valores ingresados sean del tipo esperado (por ejemplo, numéricos para el género):
 
- 
+```vb
+If TxtName.Text = "" Or TxtLastName.Text = "" Or DtpBirthday.Value.ToString = "" Or CbxGender.Text = "" Then
+  MsgBox("Debe rellenar todos los campos", vbExclamation, Title:="¡Atención!")
+Else
+  ' Lógica para insertar datos en la base de datos
+End If
+```
+
+
+
+La interacción con la base de datos se maneja utilizando el MySQL Connector/NET, preparando comandos SQL con parámetros para evitar inyecciones SQL y garantizar la seguridad de los datos:
+
+```vb
+Dim comando As New MySqlCommand(query1, conexion)
+comando.Parameters.AddWithValue("@nombre", nombre)
+' Otros parámetros...
+comando.ExecuteNonQuery()
+```
+
+  
 
 ## Conclusiones
 
-Este proyecto es un testimonio del poder y la flexibilidad de VB.NET y Windows Forms para crear aplicaciones de escritorio. A través de este ejercicio, se destacan las capacidades del entorno .NET para el desarrollo rápido de aplicaciones, la importancia de una interfaz de usuario intuitiva y la aplicación de principios de programación orientada a objetos para resolver problemas complejos de manera eficiente.
+Este proyecto demuestra la versatilidad de VB.NET y Windows Forms para el desarrollo de aplicaciones de gestión de bases de datos orientadas a instituciones académicas. La estructura modular de la aplicación y la implementación de buenas prácticas de programación, como la validación de entradas y el uso de comandos parametrizados, aseguran una base sólida para la expansión y mantenimiento futuro del sistema.
 
-Este trabajo no solo ha permitido profundizar en la programación con .NET sino que también ha abierto caminos para explorar más sobre arquitecturas de software, diseño de interfaces de usuario y técnicas de programación avanzadas. La experiencia acumulada durante este proyecto sienta las bases para futuros desarrollos y exploraciones en el vasto ecosistema de .NET.
+ La capacidad de adaptar y expandir el sistema para incluir más características, como la gestión de cursos, horarios y calificaciones, subraya la importancia de elegir tecnologías y arquitecturas de software adecuadas desde el principio. La experiencia adquirida en este proyecto proporciona una base excelente para enfrentar desafíos más complejos en el desarrollo de software dentro del ámbito educativo y más allá.
