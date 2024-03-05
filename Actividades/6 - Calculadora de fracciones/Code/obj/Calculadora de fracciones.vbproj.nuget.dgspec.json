@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Calculadora de fracciones.vbproj": {}
+    "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Code\\Calculadora de fracciones.vbproj": {}
   },
   "projects": {
-    "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Calculadora de fracciones.vbproj": {
+    "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Code\\Calculadora de fracciones.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Calculadora de fracciones.vbproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Code\\Calculadora de fracciones.vbproj",
         "projectName": "Calculadora de fracciones",
-        "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Calculadora de fracciones.vbproj",
+        "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Code\\Calculadora de fracciones.vbproj",
         "packagesPath": "C:\\Users\\jmproducciones\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Documents\\GitHub\\NET\\Actividades\\6 - Calculadora de fracciones\\Code\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jmproducciones\\AppData\\Roaming\\NuGet\\NuGet.Config",
